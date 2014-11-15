@@ -4,15 +4,17 @@ Fri, 22 Oct 2004 22:43:31 +0200.
 It was downloaded via bzr from:
    http://people.ubuntu.com/~mvo/bzr/update-notifier/main/
 
-Upstream Author: Michael Vogt <mvo@debian.org>
-                 Michiel Sikkes <michiel@eyesopened.nl>
+Original Authors: Michael Vogt <mvo@debian.org>
+                  Michiel Sikkes <michiel@eyesopened.nl>
+Current Maintainer: Axel Beckert <abe@debian.org>
 
 Copyright:
 
 Copyright (C) 2004 Lukas Lipka <lukas@pmad.net>
           (C) 2004 Michael Vogt <mvo@debian.org>
           (C) 2004 Michiel Sikkes <michiel@eyesopened.nl>
-          (c) 2004-2006 Canonical
+          (C) 2004-2006 Canonical
+          (C) 2014 Axel Beckert <abe@debian.org>
 
 This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public

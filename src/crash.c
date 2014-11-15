@@ -96,13 +96,6 @@ crashreport_check (TrayApplet *ta)
    if(!g_file_test(CRASHREPORT_REPORT_APP, G_FILE_TEST_IS_EXECUTABLE))
       return FALSE;
 
-   // Check whether the user doesn't want notifications
-   if (!gconf_client_get_bool ((GConfClient*) ta->user_data,
-       GCONF_KEY_APPORT_NOTIFICATIONS, NULL)) {
-       g_debug("apport notifications disabled in gconf, not displaying crashes");
-       return FALSE;
-   }
-
    // check for (new) reports by calling CRASHREPORT_HELPER
    // and checking the return code
    int exitcode;
@@ -158,8 +151,6 @@ hide_crash_applet(ta);
 void
 crashreport_tray_icon_init (TrayApplet *ta)
 {
-
-	ta->user_data = gconf_client_get_default();
         g_signal_connect (G_OBJECT(ta->tray_icon),
 			  "activate",
 			  G_CALLBACK (button_release_cb),

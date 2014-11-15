@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# summary of how this script can be called:
+#        * <new-preinst> `install'
+#        * <new-preinst> `install' <old-version>
+#        * <new-preinst> `upgrade' <old-version>
+#        * <old-preinst> `abort-upgrade' <new-version>
+# for details, see http://www.debian.org/doc/debian-policy/ or
+# the debian-policy package
+
 set -e
 
 # check if we have a unmodified conf-file rm upgrade-notifer
@@ -8,5 +16,26 @@ if [ -f /etc/apt/apt.conf.d/99upgrade-notifier ]; then
         rm -f  /etc/apt/apt.conf.d/99upgrade-notifier
     fi
 fi
+
+case "$1" in
+    install|upgrade)
+        # this is replaced to be a real file an not a symlink in version
+        # 0.99.2, dpkg will not remove the symlink and put the new
+        #  file as .dpkg-new (can be removed post-lucid)
+	for file in 20-cpu-checker 90-updates-available 98-reboot-required; do
+	    if [ -e /etc/update-motd.d/$file ]; then # Debian: Delete files as well.
+		rm -vf /etc/update-motd.d/$file
+	    fi
+	done
+    ;;
+
+    abort-upgrade)
+    ;;
+
+    *)
+        echo "preinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
 
 #DEBHELPER#

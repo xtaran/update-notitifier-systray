@@ -8,4 +8,8 @@ if [ "$1" = purge -a -f $STAMP ]; then
 	rm $STAMP
 fi
 
+if [ "$1" = purge -a -d /var/lib/update-notifier ]; then
+	rm -r --one-file-system /var/lib/update-notifier
+fi
+
 #DEBHELPER#

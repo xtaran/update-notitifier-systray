@@ -11,7 +11,7 @@ schema_DATA = $(schema_in_files:.schemas.in=.schemas)
 
 man_MANS = update-notifier.1
 
-helperdir = $(libdir)/update-notifier
+helperdir = $(datadir)/update-notifier
 helper_SCRIPTS = apt_check.py apt-cdrom-check cddistupgrader update-motd-reboot-required update-motd-updates-available update-motd-cpu-checker
 
 notifydir = $(datadir)/update-notifier

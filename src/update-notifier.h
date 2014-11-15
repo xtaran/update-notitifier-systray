@@ -22,8 +22,6 @@
 
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
-#include <gconf/gconf.h>
-#include <gconf/gconf-client.h>
 
 #define CLIPBOARD_NAME 	"UPGRADE_NOTIFIER_SELECTION"
 #define GCONF_KEY_DEFAULT_ACTION "/apps/update-notifier/default_action"
@@ -77,8 +75,6 @@ struct _UpgradeNotifier
    TrayApplet *reboot;
    TrayApplet *hook;
    TrayApplet *crashreport;
-
-   GConfClient *gconf;
 
    guint update_finished_timer; 
 

@@ -422,26 +422,6 @@ tray_icons_init(UpgradeNotifier *un)
    return FALSE; // for the tray_destroyed_cb
 }
 
-gboolean
-system_user()
-{
-   /* do not start for system users, e.g. the guest session 
-    * (see /usr/share/gdm/guest-session/guest-session-setup.sh)
-    */
-   int end_system_uid = 500;
-   GConfClient *gconf = gconf_client_get_default();
-   if (gconf) {
-      int i = gconf_client_get_int(gconf, GCONF_KEY_END_SYSTEM_UIDS, NULL);
-      if (i>0)
-	 end_system_uid = i;
-   }
-
-   uid_t uid = getuid();
-   if (uid < end_system_uid)
-      return TRUE;
-   return FALSE;
-}
-
 // this function checks if the user is in the admin group
 // if there is no admin group, we return true becuase there
 // is no way to figure if the user is a admin or not
@@ -527,12 +507,6 @@ main (int argc, char **argv)
 	gtk_window_set_default_icon_name ("update-notifier");
 
 	//g_print("starting update-notifier\n");
-
-	// do not run as system user (e.g. guest user)
-	if (system_user() && !FORCE_START) {
-	   g_warning("not starting for system user\n");
-	   exit(0);
-	}
 
 	// check if it is running already
 	if (!up_get_clipboard ()) {

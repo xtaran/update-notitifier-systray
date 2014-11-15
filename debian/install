@@ -5,6 +5,3 @@ debian/20archive etc/apt/apt.conf.d
 #debian/20-cpu-checker etc/update-motd.d
 #debian/90-updates-available etc/update-motd.d
 #debian/98-reboot-required etc/update-motd.d
-usr/share/update-notifier/notify-reboot-required
-usr/lib/update-notifier/
-usr/share/locale

@@ -665,19 +665,7 @@ gboolean check_update_hooks(TrayApplet *ta)
    GtkWidget *button_next = GTK_WIDGET (gtk_builder_get_object(builder, "button_next"));
    assert(button_next);
 
-   // check if we do a notification or a dialog
-   GConfClient *gconf = gconf_client_get_default();
-   if(gconf_client_get_bool(gconf, GCONF_KEY_AUTO_LAUNCH, NULL)) {
-      g_debug_hooks("showing hooks with focus on map == FALSE");
-      if (unseen_count < 2)
-	 gtk_widget_hide(button_next);
-      else
-	 gtk_widget_show(button_next);
-      show_hooks(ta, FALSE);
-      return TRUE;
-   }
-
-   // no dialog, do the notification
+   // no more dialog, just do the notification
    if((unseen_count > 0) && !gtk_status_icon_get_visible (ta->tray_icon))
       g_timeout_add(5000, show_notification, ta);
 

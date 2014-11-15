@@ -13,12 +13,11 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include <dbus/dbus-glib.h>
 
 #include "update-notifier.h"
 #include "update.h"
 
-#define UPGRADE_CHECKER PACKAGE_LIB_DIR"/update-notifier/apt-check"
+#define UPGRADE_CHECKER PACKAGE_DATA_DIR"/update-notifier/apt-check"
 
 // command, description, desktopfile, needs_gksu
 const char* actions[][4] = {
@@ -108,7 +107,6 @@ cb_action(GObject *self, void *user_data)
    invoke (actions[i][0], _(actions[i][2]), (long)actions[i][3]);
 
    UpdateTrayAppletPrivate *priv = (UpdateTrayAppletPrivate*)ta->user_data;
-   gconf_client_set_int(priv->gconf, GCONF_KEY_DEFAULT_ACTION, i, NULL);
 }
 
 void 
@@ -126,9 +124,6 @@ cb_toggled_show_notifications(GObject *self, void *data)
       UpdateTrayAppletPrivate *priv = (UpdateTrayAppletPrivate*)ta->user_data;
 
       gboolean b = gtk_check_menu_item_get_active(GTK_CHECK_MENU_ITEM(self));
-      gconf_client_set_bool(priv->gconf, GCONF_KEY_NO_UPDATE_NOTIFICATIONS, 
-			    !b,NULL);
-      
 
       NotifyNotification *n = priv->active_notification;
       if(n != NULL) {
@@ -162,9 +157,7 @@ update_trayicon_create_menu(TrayApplet *ta)
 
 	menuitem = gtk_check_menu_item_new_with_label(_("Show notifications"));
 	UpdateTrayAppletPrivate *priv = (UpdateTrayAppletPrivate*)ta->user_data;
-	gboolean b = gconf_client_get_bool(priv->gconf,
-					   GCONF_KEY_NO_UPDATE_NOTIFICATIONS, 
-					   NULL);
+        gboolean b = 0;
 	gtk_check_menu_item_set_active(GTK_CHECK_MENU_ITEM(menuitem), !b);
 	gtk_menu_shell_append (GTK_MENU_SHELL (ta->menu), menuitem);
 	g_signal_connect(G_OBJECT(menuitem), "toggled", 
@@ -191,11 +184,6 @@ update_apt_is_running(TrayApplet *ta, gboolean is_running)
    // update internal status
    UpdateTrayAppletPrivate *priv = (UpdateTrayAppletPrivate*)ta->user_data;
    priv->apt_is_running = is_running;
-
-   // if the user wants auto-launch mode, do not show the icon
-   // the auto launch stuff will do its magic later
-   if(gconf_client_get_bool(priv->gconf, GCONF_KEY_AUTO_LAUNCH, NULL))
-      return;
 
    if(is_running) {
 
@@ -311,45 +299,6 @@ outdated_nag(TrayApplet *ta)
 				 ));
    }
    return FALSE;
-}
-
-// use ubuntu-system-service (if available) to check
-// if the dpkg lock is taken currently or not
-//
-// if uncertain, return FALSE 
-static gboolean
-dpkg_lock_is_taken ()
-{
-   DBusGConnection *connection;
-   GError *error;
-   DBusGProxy *proxy;
-   gboolean locked = FALSE;
-  
-   error = NULL;
-   connection = dbus_g_bus_get (DBUS_BUS_SYSTEM, &error);
-   if (connection == NULL) {
-      g_debug_update ("Failed to open connection to bus: %s\n", error->message);
-      g_error_free (error);
-      return FALSE;
-   }
-
-  proxy = dbus_g_proxy_new_for_name (connection,
-                                     "com.ubuntu.SystemService",
-				     "/",
-				     "com.ubuntu.SystemService");
-  error = NULL;
-  if (!dbus_g_proxy_call (proxy, "is_package_system_locked", &error, 
-			  G_TYPE_INVALID,
-                          G_TYPE_BOOLEAN, &locked, G_TYPE_INVALID)) {
-     g_debug_update ("error during dbus call: %s\n", error->message);
-     g_error_free (error);
-     g_object_unref (proxy);
-     return FALSE;
-  }
-  g_object_unref (proxy);
-
-  g_debug_update ("is_package_system_locked: %i", locked);
-  return locked;
 }
 
 #if 0
@@ -480,56 +429,6 @@ newest_log_file_timestamp()
    return newest_log_stamp;
 }
 
-// check if the auto launch interval is over and its 
-// time to launch again and if the dpkg lock is currently 
-// not taken
-static gboolean 
-auto_launch_now (UpdateTrayAppletPrivate *priv)
-{
-   int interval_days = 0;
-   time_t last_launch = 0;
-
-   if (dpkg_lock_is_taken())
-      return FALSE;
-
-#if 0 // disabled because we need more cleverness here in order to cover
-      // the case where people always work on battery (and charge overnight)
-   if (running_on_battery())
-      return FALSE;
-#endif
-
-   // when checking for regular updates honor the 
-   // regular_auto_launch_interval
-   interval_days = gconf_client_get_int(priv->gconf,
-					GCONF_KEY_AUTO_LAUNCH_INTERVAL, 
-					NULL);
-   g_debug_update ("interval_days from gconf: %i\n", interval_days);
-
-   if (interval_days <= 0) 
-      return TRUE;
-
-   // check last launch time 
-   last_launch = gconf_client_get_int(priv->gconf,
-				      GCONF_KEY_LAST_LAUNCH,
-				      NULL);
-   g_debug_update ("last_launch from gconf: %i (%s)\n", last_launch, ctime(&last_launch));
-
-   time_t now = time(NULL);
-   if (auto_launch_security_now(priv, now, last_launch))
-      return TRUE;
-
-   time_t log_files = newest_log_file_timestamp();
-   last_launch = MAX(log_files, last_launch);
-
-   g_debug_update("time now %i (%s), delta: %i", now, ctime(&now), now-last_launch);
-   if ((last_launch + (24*60*60*interval_days)) < now) {
-      g_debug_update ("need to auto launch");
-      return TRUE;
-   }
-
-   return FALSE;
-}
-
 gboolean
 update_check (TrayApplet *ta)
 {
@@ -638,31 +537,12 @@ update_check (TrayApplet *ta)
       return TRUE;
    }
 
-   // check if the user wants to see the icon or launch
-   // the default action
-   if(gconf_client_get_bool(priv->gconf,
-			    GCONF_KEY_AUTO_LAUNCH, NULL)) 
-   {
-      gtk_status_icon_set_visible(ta->tray_icon, FALSE);
-      if (auto_launch_now(priv)) 
-      {
-	 g_spawn_command_line_async("nice ionice -c3 update-manager "
-				    "--no-focus-on-map", NULL);
-      }
-      return TRUE;
-   }
-
    // if we are already visible, skip the rest
    if(gtk_status_icon_get_visible (ta->tray_icon))
       return TRUE;
 
    // show the icon
    gtk_status_icon_set_visible(ta->tray_icon, TRUE);
-   
-   // the user does not no notification messages
-   if(gconf_client_get_bool(priv->gconf,
-			    GCONF_KEY_NO_UPDATE_NOTIFICATIONS, NULL))
-      return TRUE;
 
    // show the notification with some delay. otherwise on a login
    // the origin of the window is 0,0 and that looks ugly
@@ -677,7 +557,6 @@ update_tray_icon_init(TrayApplet *ta)
 {
    // create the private data struct
    UpdateTrayAppletPrivate *priv = g_new0(UpdateTrayAppletPrivate, 1);
-   priv->gconf = gconf_client_get_default();
    priv->apt_is_running = FALSE;
    priv->active_notification = NULL;
    ta->user_data = priv;

@@ -1,3 +1,15 @@
+update-notifier-systray (1) unstable; urgency=low
+
+  * Fork the last non-transitional, non-packagekit update-notifier package
+    to again get a lean update-notifier for the systraywith only very few
+    dependencies.
+    + Merge update-notifier and pdate-notifier-common.
+    + Rip out anything which refers to gconf, dbus and gudev.
+  * Change section from gnome to x11
+  * Use debhelper 9 and dh-autoreconf
+
+ -- Axel Beckert <abe@debian.org>  Sat, 15 Nov 2014 17:16:48 +0100
+
 update-notifier (0.99.3debian11) unstable; urgency=low
 
   * Make update-notifier-common depend on lsb-release (Closes: #694006)

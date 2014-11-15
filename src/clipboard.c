@@ -10,7 +10,6 @@
 
 #include "config.h"
 
-#include <gconf/gconf-client.h>
 #include <gdk/gdkx.h>
 
 #include "update-notifier.h"

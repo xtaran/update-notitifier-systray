@@ -1,47 +1,29 @@
-Source: update-notifier
-Section: gnome
+Source: update-notifier-systray
+Section: x11
 Priority: optional
-Maintainer: Julian Andres Klode <jak@debian.org>
-Build-Depends: debhelper (>= 7.0.50~),
+Maintainer: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper (>= 9~),
+               dh-autoreconf,
                libgtk2.0-dev (>= 2.10.0),
-               libgconf2-dev,
-               libgdu-dev [linux-any],
-               libdbus-glib-1-dev (>= 0.60),
                intltool,
                libnotify-dev (>= 0.7),
-               libgudev-1.0-dev [linux-any],
                libx11-dev
 Standards-Version: 3.9.2
-Vcs-Bzr: http://bzr.debian.org/collab-maint/update-notifier/debian-sid
-Vcs-Browser: http://bzr.debian.org/loggerhead/collab-maint/update-notifier/debian-sid
+#Vcs-Bzr: http://bzr.debian.org/collab-maint/update-notifier/debian-sid
+#Vcs-Browser: http://bzr.debian.org/loggerhead/collab-maint/update-notifier/debian-sid
 
-Package: update-notifier
+Package: update-notifier-systray
 Architecture: any
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-         update-notifier-common (= ${source:Version}),
-         python,
-         update-manager-gnome | update-manager,
-         notification-daemon,
-         gksu
-Recommends: apport-gtk, synaptic, software-properties-gtk, anacron
-Suggests: ubuntu-system-service
-Replaces: update-notifier-common (<< 0.99.3debian)
-Breaks: update-notifier-common (<< 0.99.3debian)
-Description: Daemon which notifies about package updates
- Puts an icon in the user's notification area when package updates are
- available.
-
-Package: update-notifier-common
-Replaces: update-notifier (<< 0.75.1)
-Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          gettext-base,
          lsb-release,
          python,
-         python-apt (>= 0.6.12)
-Recommends: libpam-modules (>= 1.0.1-9ubuntu3)
-Description: Files shared between update-notifier and adept
- Apt setup files and reboot notification scripts shared between
- update-notifier and adept-notifier.
+         python-apt (>= 0.6.12),
+         notification-daemon
+Recommends: synaptic, software-properties-gtk, anacron
+Replaces: update-notifier-common (<= 0.99.3debian11), update-notifier (<= 0.99.3debian11)
+Breaks: update-notifier-common (<= 0.99.3debian11), update-notifier (<= 0.99.3debian11)
+Description: Simple systray iconf which notifies about package updates
+ Puts an icon in the user's notification area when package updates are
+ available.

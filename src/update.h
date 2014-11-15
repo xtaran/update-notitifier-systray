@@ -10,7 +10,6 @@ void update_apt_is_running(TrayApplet *ta, gboolean is_running);
 typedef struct _UpdateTrayAppletPrivate UpdateTrayAppletPrivate;
 struct _UpdateTrayAppletPrivate 
 {
-   GConfClient* gconf;
    // this is a permanent marker if apt is runing currently
    // (the difference to the one in update-notifier.h is that
    //  the one in here is "global" and not "per-timeslice" information
