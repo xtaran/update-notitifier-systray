@@ -9,6 +9,7 @@ update-notifier-systray (1) unstable; urgency=low
   * Change section from gnome to x11
   * Use debhelper 9 and dh-autoreconf
     + Remove all generated files from the repository and source package.
+  * Rename configure.in to configure.ac.
 
  -- Axel Beckert <abe@debian.org>  Sat, 15 Nov 2014 17:16:48 +0100
 
