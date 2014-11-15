@@ -1,0 +1,421 @@
+# Turkish translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-10-16 06:20+0000\n"
+"Last-Translator: Efe Çiftci <efe.ciftci@linux.org.tr>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Bilinmeyen Hata: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i paket güncellenebilir durumda."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i güncelleme, güvenlik güncellemesidir."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Önbellek açılırken bir hata meydana geldi: %s"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Paketler denetlenirken bir hata meydana geldi: BozukPaketSayısı > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Hata: (%s) güncelleştirmesi işaretlenirken"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Kurulacak/yükseltilecek paketleri göster"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr ""
+"Standart çıktı (stdout) ekranında insanların anlayabileceği çıktı göster"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Güvenlik güncellemelerinin gözetimsiz yüklenmesinden beri geçen süreyi gün "
+"cinsinde göster (hizmet dışı bırakmak için 0)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Lütfen, sistem uygulamalarının sorun "
+"raporlarına erişmek için parolanızı girin</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Çökme raporu belirlendi"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Sisteminizdeki bir uygulama çöktü (şimdi ya da daha önce). Ayrıntıları "
+"görmek için bildiri simgesine tıklayın. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Ağ hizmetlerinin bulunması devre dışı"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Geçerli ağınızın, önerilmeyen ve Avahi ağ hizmeti bulgusu ile uyumsuz yerel "
+"alan adı var. Hizmet devre dışı bırakıldı."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Yazılım Paketleri Birimi Saptandı"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Yazılım paketli bir birim belirlendi.</"
+"span>\n"
+"\n"
+"Paket yöneticisiyle açmak ister misiniz?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Paket Yöneticisini Başlat"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Yükseltme birimi belirlendi"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Yazılım paketli bir dağıtım birimi "
+"belirlendi.</span>\n"
+"\n"
+"Kendiliğinden yükseltmeyi denemek ister misiniz? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Paket yöneticisini başlat"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Yükseltmeyi gerçekleştir"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Eklenti birimi belirlendi"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">İçinde yazılım uygulamaları bulunan "
+"bir medya algılandı.</span>\n"
+"\n"
+"İçeriği görmek/kurmak ister misiniz? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Eklenti kurulumunu başlat"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTonCD birimi algılandı"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">İçinde gayrıresmi yazılım paketleri "
+"bulunan bir medya algılandı.</span>\n"
+"\n"
+"Paket yöneticisini kullanarak açmak ister misiniz?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Bilgi mevcut"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "Bu eylemi şimdi _gerçekleştir"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "Mevcut bilgileri görüntülemek için bildiri simgesine tıklayın.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Sistemin yeniden başlatılması gerekiyor"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Sisteminizin güncelleştirilmesini tamamlamak için lütfen bilgisayarı yeniden "
+"başlatın.\n"
+"\n"
+"Ayrıntılar için bildirim simgesine tıklayın."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Yeniden başlatma başarısız"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Yeniden başlatma isteği başarısız oldu, lütfen elle kapatmayı deneyin"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Güncellemeleri göster"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Tüm güncellemeleri yükle"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Güncellemeleri denetle"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "%i yeni güncelleştirme mevcut"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Bildirileri göster"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Bir paket yöneticisi çalışıyor"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"%i güncelleme kullanılabilir. Kullanılabilir güncellemeleri görmek için "
+"bildirim simgesine tıklayın."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Yazılım güncellemeleri mevcut"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Güncelleme bilgisi güncel değil. Bunun sebebi bağlantı sorunları ya da "
+"geçersiz olan depo(lar) yüzünden olabilir. Bu simgeye tıklayarak kendiniz "
+"güncellemeyi yapın ve sonra 'Güncellemeleri Kontrol Et'i seçerek listelenen "
+"depoların hatalı olup olmadığını kontrol edin."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Bir hata oluştu, lütfen hatayı tespit etmek için Paket Yöneticisini sağ "
+"tıklayarak açılan menüden çalıştırın ya da konsoldan apt-get komutunu "
+"çalıştırın.\n"
+"Hata mesajı: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Bir hata oluştu, lütfen hatayı görüntülemek için Paket Yöneticisine sağ "
+"tıklayarak açılan menüden ya da konsoldan apt-get komutunu çalıştırın."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Bu, genellikle, kurulu paketlerinizin karşılanmayan bağımlılıkları olduğu "
+"anlamına gelir."
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Güncellemeler denetlenirken bir sorun oluştu."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "İç hata"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- güncellemeleri bildir"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Kullanıcı arabirimi başlatma başarısız: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "bilinmeyen hata"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "güncelleme-bildiricisi"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Güncelleme bilgileri</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Yeniden Başlatma Gerekli"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "_Daha Sonra Yeniden Başlat"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Bilgisayarın güncelleştirmeleri kurmak için yeniden başlatılmaya ihtiyacı "
+"var. Lütfen çalışmalarınızı devam etmeden önce kaydedin."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "Şimdi _Yeniden Başlat"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Öntanımlı eylemi kendiliğinden çalıştır"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Apport çökme raporunu otomatik olarak görüntüle."
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Yeniden başlatma ihtiyacı simgesi veya penceresi görüntüleme. Bu, "
+"kullanıcılardan bu özellikleri korumak isteyen sistem yöneticileri için "
+"kullanışlıdır."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Yeniden başlat bildirimini gizle"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Eğer bu devredışı bırakılırsa, beklemedeki apport çökme raporları "
+"kullanıcıya bildirilmeyecektir"
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Normal güncellemeler için otomatik çalıştırma aralığı (gün bazında)"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Öntanımlı eylem (güncelleme yöneticisi) kendiliğinden başlayacaktır. Uyarı "
+"balonları, yeniden başlatma gerekiyor, ortam algılandı gibi tüm bildirim "
+"kutuları kendiliğiden açılacaktır."
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Normal güncellemeler için güncelleme yöneticisinin otomatik çalıştırılma "
+"aralığı (gün bazında). Uygulamanın güvenlik güncellemeleri için otomatik "
+"olarak çalışacağını unutmayınız. Eğer \"0\" değerini verirseniz, uygulama "
+"güncellemeler mevcut olduktan hemen sonra başlayacaktır."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Sistem kullanıcıları için ayrılan azami 'UID'"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Güncelleme bildiricisi sistem kullanıcıları için başlamayacak, bu menzilin "
+"üst sınırını tanımlar."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Güncellemeleri otomatik kontrol et"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Güncelleme Bildiricisi"

@@ -1,0 +1,412 @@
+# Korean translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# Eungkyu Song <eungkyu@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-10-13 10:05+0000\n"
+"Last-Translator: Jaesung <jaesung@liberotown.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "알 수 없는 오류: '%s'(%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i 패키지를 업데이트할 수 있습니다."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i 업데이트는 보안 업데이트입니다."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "오류: 캐시 열기(%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "오류: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "오류: 업그레이드 표시(%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "설치/업그레이드할 패키지 보기"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "표준 출력으로 메시지 보여주기"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"보안 업데이트가 제대로 설치되지 않은 시간을 일수로 보여줌 (0은 해제를 뜻함)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">시스템 프로그램의 문제 보고서에 접근하"
+"기 위해 암호를 입력하세요</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "충돌 보고서 발견"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"(이전이나 지금 현재) 시스템 내의 프로그램에 충돌이 발생했습니다. 자세한 내용"
+"을 확인하려면 알림 아이콘을 클릭하십시오. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "네트워크 서비스 탐색 비활성화"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"여러분의 현재 네트워크는 .local 도메인을 가지고 있습니다. 이는 Avahi 네트워"
+"크 서비스 탐색 서비스에 문제를 일으킬 수 있습니다. 서비스가 비활성화 되었습니"
+"다."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "소프트웨어 패키지 볼륨이 발견됨"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">소프트웨어 패키지가 있는 볼륨을 발견했"
+"습니다.</span>\n"
+"\n"
+"패키지 관리자로 열까요?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "패키지 관리자 시작"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "업그레이드 볼륨 발견"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">소프트웨어 패키지가 있는 배포판 볼륨을 "
+"발견했습니다.</span>\n"
+"\n"
+"자동으로 업그레이드를 시도할까요? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "패키지 관리자 시작"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "업그레이드 실행"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "애드온 볼륨 발견"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">소프트웨어 프로그램을 포함한 애드온 볼"
+"륨 발견</span>\n"
+"\n"
+"볼륨의 내용을 확인하고 설치하시겠습니까? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "애드온 설치 시작"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTonCD 볼륨 발견"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">비공식 소프트웨어 패키지를 포함한 볼륨 "
+"발견</span>\n"
+"\n"
+"패키지 관리자로 열까요?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "정보를 볼 수 있음"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "이 동작을 실행(_R)"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "정보를 보려면 알림 아이콘을 클릭하십시오.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "시스템을 다시 시작해야 합니다"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"업데이트 완료를 위해 시스템을 다시 시작해 주십시오.\n"
+"\n"
+"자세한 내용을 보려면 알림 아이콘을 클릭하십시오."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "재부팅 실패"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "재부팅을 수행하는 데 실패했습니다. 수동으로 종료해 주십시오."
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "업데이트 보기"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "업데이트 모두 설치"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "업데이트 확인"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "설치할 수 있는 업데이트가 %i개 있습니다."
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "알림 내용을 봅니다"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "패키지 관리자가 작동 중입니다."
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"%i 개의 업데이트가 있습니다. 사용 가능한 업데이트를 보려면 알림 아이콘을 누르"
+"세요."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "설치할 수 있는 소프트웨어 업데이트가 있음"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"업데이트 정보가 오래되었습니다. 네트워크에 문제가 있거나 저장소가 사용불가 상"
+"태일 수도 있습니다. 이 아이콘을 눌러 수동으로 업데이트를 한뒤 '업데이트 확"
+"인' 을 선택하여 문제가 있는 저장소를 확인하십시오."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"오류가 발생하였습니다. 오른쪽 클릭 메뉴에서 꾸러미 관리자를 실행하거나 터미널"
+"에서 apt-get 을 실행시켜 문제를 확인해 주세요.\n"
+"에러 메시지는 다음과 같습니다: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"오류가 발생하였습니다. 오른쪽 클릭 메뉴에서 꾸러미 관리자를 실행하거나 터미널"
+"에서 apt-get 을 실행시켜 문제를 확인해 주세요."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr "이 오류는 설치된 꾸러미의 의존성이 맞지 않을 때 주로 나타납니다"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "업데이트를 확인하던 중 문제가 발생하였습니다."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "내부 오류"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "-업데이트에 대한 보고"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "UI 초기화 실패: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "알 수 없는 오류"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "업데이트-알리미"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">업데이트 정보</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "재시작이 필요함"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "나중에 재시작(_L)"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"업데이트 설치를 완료하기 위한 재시작이 필요합니다. 진행하기 전에 작업을 저장"
+"하시기 바랍니다."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "지금 재시작(_R)"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "자동으로 기본 동작을 실행시킴"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "충돌 보고서를 자동으로 표시"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"재부팅에 필요한 아이콘이나 대화를 표시하지 마십시오. 이는 이 특성을 사용자들"
+"에게서 막을 시스템 관리자에게 유용합니다."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "재부팅 알림을 숨김"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"만약 이것을 사용하지 않도록 하면, 사용자는 생성된 충돌 보고서에 대한 알림을 "
+"받지 못할 것입니다."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "일반 업데이트를 하기 위해 자동으로 실행시키는 간격 (일 단위)"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"기본 동작 (업데이트 관리자) 은 자동으로 시작될 것입니다.  알림 후크, 리부팅 "
+"요구됨, 미디어 검출됨과 같은 모든 대화 상자는 자동으로 열릴 것입니다."
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"일반 업데이트를 위해 업데이트 관리자를 자동 실행시킬 간격 (일 단위).  단, 보"
+"안 업데이트는 바로 시작됩니다.  \"0\"으로 설정하면 업데이트가 사용가능할 때 "
+"바로 실행될 것입니다."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "시스템 사용자를 위해 예약된 UID의 최대값"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"시스템 사용자에게는 업데이트 알리미가 시작되지 않으며, 이것은 이 범위의 상한"
+"선을 지정합니다."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "자동으로 가능한 업데이트 확인"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "업데이트 알리미"

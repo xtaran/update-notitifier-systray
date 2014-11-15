@@ -1,0 +1,433 @@
+# Russian translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-10-30 10:15+0000\n"
+"Last-Translator: Tier <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Неизвестная ошибка: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "Может быть обновлён %i пакет."
+msgstr[1] "Могут быть обновлёны %i пакета ."
+msgstr[2] "Могут быть обновлёны %i пакетов."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i обновление является обновлением безопасности"
+msgstr[1] "%i обновления являются обновлениями безопасности."
+msgstr[2] "%i обновлений являются обновлениями безопасности."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Ошибка открытия кэша (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Ошибка: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Ошибка: отметка обновления (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Показать пакеты, которые будут установлены/обновлены"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Выводить читабельные сообщения в stdout"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Укажите, через сколько дней обновления безопасности будут установлены "
+"автоматически (введите 0 для отключения данной функции)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Введите ваш пароль для доступа к "
+"отчётам об ошибках в системных программах</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Обнаружен отчёт об ошибке"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Приложение аварийно завершило свою работу (сейчас или раньше). Нажмите на "
+"значок уведомления для просмотра деталей. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Сервис поиска сетевых ресурсов отключён"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Текущая сеть имеет локальный домен (.local), который не рекомендуется и не "
+"совместим с сервисом поиска сетевых ресурсов Avahi. Служба была отключена."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Обнаружен том с пакетами программного обеспечения"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Обнаружен том, содержащий пакеты с "
+"программным обеспечением.</span>\n"
+"\n"
+"Открыть его с помощью менеджера пакетов?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Запустить менеджер пакетов"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Обнаружен том с обновлениями"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Обнаружен том дистрибутива, содержащий "
+"пакеты с программным обеспечением.</span>\n"
+"\n"
+"Попытаться выполнить автоматическое обновление с него? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Запустить менеджер пакетов"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Выполнить обновление"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Обнаружен том с дополнительными программами"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Был обнаружен дополнительный том с "
+"программным обеспечением.</span>\n"
+"\n"
+"Хотите ли просмотреть/установить содержимое? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Запустить установщик дополнений"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "Обнаружен диск APTonCD"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Обнаружен том, содержащий "
+"неофициальные пакеты с программным обеспечением.</span>\n"
+"\n"
+"Открыть его с помощью менеджера пакетов?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Есть информация"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Выполнить это действие сейчас"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr ""
+"Нажмите на значок уведомления, чтобы просмотреть доступную информацию.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Требуется перезагрузка системы"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Для завершения обновления системы требуется перезагрузка\n"
+"\n"
+"Нажмите на значок уведомлений для получения подробностей."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Не удалось перезагрузиться"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Не удалось перезагрузиться. Пожалуйста, выключите компьютер вручную."
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Показать обновления"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Установить все обновления"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Проверить наличие обновлений"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Доступно %i обновление"
+msgstr[1] "Доступно %i обновления"
+msgstr[2] "Доступно %i обновлений"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Показать уведомления"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Менеджер обновлений работает"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Доступно %i обновление. Щёлкните по значку в области уведомлений, чтобы "
+"просмотреть доступное обновление."
+msgstr[1] ""
+"Доступно %i обновления. Щёлкните по значку в области уведомлений, чтобы "
+"просмотреть доступные обновления."
+msgstr[2] ""
+"Доступно %i обновлений. Щёлкните по значку в области уведомлений, чтобы "
+"просмотреть доступные обновления."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Доступны обновления программ"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Информация об обновлениях устарела. Это может быть вызвано проблемами с "
+"подключением к сети либо тем, что репозиторий более недоступен. Пожалуйста, "
+"выполните обновление вручную, щелкнув на этой иконке и выбрав \"Проверить "
+"обновления\", и убедитесь в доступности всех репозиториев."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Произошла ошибка. Запустите менеджер пакетов из контекстного меню или apt-"
+"get в терминале, чтобы посмотреть детальную информацию.\n"
+"Сообщение об ошибке: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Произошла ошибка. Запустите менеджер пакетов из контекстного меню или apt-"
+"get в терминале, чтобы посмотреть детальную информацию."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Это обычно означает, что ваши установленные пакеты имеют неразрешённые "
+"зависимости"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "При проверке обновлений возникла проблема."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Внутренняя ошибка"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- уведомлять о наличии обновлений"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Невозможно запустить графический интерфейс: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "неизвестная ошибка"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "Уведомления об обновлениях"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Информация об обновлениях</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Требуется перезагрузка"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Перезагрузить _позже"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Для завершения установки обновлений требуется перезагрузить компьютер. "
+"Пожалуйста, сохраните результаты вашей работы перед тем, как продолжить."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "Перезагрузить _сейчас"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Автоматически выполнить действие по умолчанию"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Автоматически отображать отчёты об ошибках"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Не показывать значок или диалог о необходимости перезагрузки системы. Данная "
+"опция будет полезна системному администратору, желающему скрыть подобные "
+"уведомления от пользователей."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Спрятать уведомление о перезагрузке"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Если данная функция отключена, пользователь не будет получать уведомления о "
+"текущих отчетах о сбоях apport."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Интервал (в днях) для автоматического запуска обновлений."
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Действие по умолчанию (update-manager) будет начато автоматически. Все "
+"диалоговые окна, такие как уведомления обработчика, сообщения о "
+"необходимости перезагрузки и обнаружении внешних носителей будут открыты "
+"автоматически"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Интервал (в днях) для автозапуска менеджера обновлений для обычных "
+"обновлений. Обратите внимание на то, что он будет запущен автоматически для "
+"обновления системы безопасности. Если Вы укажете \"0\", менеджер будет "
+"автоматически запущен, как только станут доступны обновления"
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Максимальный UID, зарезервированный для системных пользователей"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Напоминание об обновлениях не будет запускаться для системных пользователей, "
+"этот параметр указывает верхнее значение этого диапазона."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Автоматически проверять наличие обновлений"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Оповещение об обновлениях"

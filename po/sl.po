@@ -1,0 +1,435 @@
+# Slovenian translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-10-25 13:36+0000\n"
+"Last-Translator: Simon Vidmar <Unknown>\n"
+"Language-Team: Slovenian <sl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Neznana napaka: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i paketov je možno posodobiti."
+msgstr[1] "%i paket je možno posodobiti."
+msgstr[2] "%i paketa je možno posodobiti."
+msgstr[3] "%i pakete je možno posodobiti"
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i posodobitev je varnostna posodobitev."
+msgstr[1] "%i posodobitev je varnostna posodobitev."
+msgstr[2] "%i posodobitvi sta varnostni posodobitvi."
+msgstr[3] "%i posodobitve so varnostne posodobitve."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Napaka: odpiranje predpomnilnika (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Napaka: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Napaka: označevanje nadgradnje (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Prikaži paketke ki bodo nameščeni/nadgrajeni"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Prikaži človeku prijazen prikaz na standardnem izhodu"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Vrni čas v dneh ko so varnostne posdobitve nameščene brez posredovanja (0 "
+"pomeni onemogočeno)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Za dostop do poročanja o problemih s "
+"sistemskimi programi morate vpisati svoje geslo</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Zaznano je bilo poročilo o sesutju"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Na vašem sistemu se je sesula aplikacija (sedaj ali v preteklosti). Če "
+"želite več podrobnosti kliknite na ikono z obvestilom. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Odkrivanje omrežnih storitev je onemogočeno"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Vaše trenutno omrežje uporablja domeno .local, kar ni priporočeno in je "
+"nezdružljivo z odkrivanjem omrežnih storitev Avahi. Storitev je onemogočena."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Zaznan je medij programskih paketkov"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"</span weight=\"bold\" size=\"larger\">Zaznan je bil nosilec s paketi "
+"aplikacij.</span>\n"
+"\n"
+"Ali ga želite odpreti z orodjem za nameščanje paketov?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Zaženi upravljalnik paketkov"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Zaznan je nosilec s posodobitvami"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Zaznan je nosilec distribucije s "
+"programskimi paketi.</span>\n"
+"\n"
+"Bi želeli samodejno nadgraditi sistem iz njega? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Zaženi orodje za nameščanje paketov"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Zaženi posodobitev"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Zaznan je nosilec z dodatki"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Zaznan je bil dodaten nosilec z "
+"aplikacijami.</span>\n"
+"\n"
+"Ali si želite ogledati/namestiti njegovo vsebino? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Zaženi namestitev dodatkov"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "Zaznan je nosilec APTonCD"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Zaznan je bil nosilec z neuradnimi "
+"paketi aplikacij.</span>\n"
+"\n"
+"Ali ga želite odpreti z orodjem za nameščanje paketov?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Informacije na voljo"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Izvedi izbrano operacijo"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "Kliknite na ikono z obvestilom, za prikaz informacij.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Potreben je ponoven zagon sistema"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Za dokončanje posodobitve vašega sistema, vas prosimo, da ga ponovno "
+"zaženite.\n"
+"\n"
+"Za podrobnosti kliknite na opozorilno ikono."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Ponovni zagon je spodletel"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Zahteva po ponovnem zagonu ni uspel. Prosimo, opravite ročni izklop."
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Prikaži posodobitve"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Namesti vse posodobitve"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Preveri, če so na voljo posodobitve"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Na voljo je %i posodobitev"
+msgstr[1] "Na voljo je  %i posodobitev"
+msgstr[2] "Na voljo sta %i posodobitvi"
+msgstr[3] "Na voljo so %i posodobitve"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Prikaži obvestila"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Urejevalnik paketov deluje"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Na voljo je %i posodobitev. Kliknite na ikono z obvestili za prikaz "
+"posodobitve."
+msgstr[1] ""
+"Na voljo je %i posodobitev. Kliknite na ikono z obvestili za prikaz "
+"posodobitev."
+msgstr[2] ""
+"Na voljo sta %i posodobitvi. Kliknite na ikono z obvestili za prikaz "
+"posodobitev."
+msgstr[3] ""
+"Na voljo so %i posodobitve. Kliknite na ikono z obvestili za prikaz "
+"posodobitev."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Na voljo so posodobitve programske opreme"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Razpoložljivi podatki so zastareli. To je lahko posledica težav z omrežjem, "
+"ali pa skladišče ni več na razpolago. Za ročno posodobitev prosimo, da "
+"kliknite na to ikono in nato izberete 'Preveri, če so na voljo posodobitve', "
+"ter preverite, če katero izmed naštetih skladišč ne javlja napake."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Prišlo je do napake. Da bi ugotovili, kaj je narobe, iz priročnega menuja "
+"zaženite orodje za nameščanje paketov  ali pa apt-get v terminalu.\n"
+"Napaka je: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Prišlo je do napake. Da bi ugotovili, kaj je narobe, iz priročnega menuja "
+"zaženite orodje za nameščanje paketov ali pa apt-get v terminalu."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"To ponavadi pomeni, da so nameščeni paketi odvisni od paketov, ki niso na "
+"voljo."
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Pri iskanju morebitnih posodobitev je prišlo do napake."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Notranja napaka"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- obvesti o posodobitvah"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Zagon UI je spodletel: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "neznana napaka"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "opozorilnik posodobitev"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Informacije o posodobitvi</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Potreben je ponoven zagon"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Ponovno _zaženi kasneje"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Računalnik se mora ponovno zagnati, da dokonča proces posodobitve. Prosimo, "
+"da pred nadaljevanjem shranite svoje delo."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Ponovno zaženi zdaj"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Avtomatsko izvedi privzeto dejanje"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Samodejno prikaži poročila o sesutju apport"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Ne prikaži ikone ali okna \"potreben nov zagon\". To je uporabno za "
+"administratorja, ki želi preprečiti uporabo te možnosti navadnim uporabnikom."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Skrij obvestilo o ponovnem zagonu"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Če je to onemogočeno, uporabnik ne bo obveščen o čakajočih poročilih sesutja "
+"apport."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Interval (v dneh) med samodejnimi posodobitvami"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Privzeto dejanje (update-manager) bo zagnano samodejno. Vsa okna z dialogom, "
+"ponoven zagon je potreben, vsi zaznani mediji se bodo odprli samodejno"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Interval (v dneh) za zagon upravljalca posodobitev za navadne posodobitve. "
+"Če nastavite na \"0\", bo zagnan takoj, ko bodo posodobitve na voljo. Za "
+"varnostne posodobitve bo v vsakem primeru zagnan takoj."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Največji UID ki je rezerviran za uporabnike sistema"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Update-notifier ne bo zagnan za sistemske uporabnike; to določa zgornjo mejo "
+"obsega."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Samodejno preveri za posodobitve"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Obveščevalec o posodobitvah"

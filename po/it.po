@@ -1,0 +1,430 @@
+# Italian translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-10-19 20:40+0000\n"
+"Last-Translator: Milo Casagrande <milo@casagrande.name>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Errore sconosciuto: «%s» (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i pacchetto può essere aggiornato."
+msgstr[1] "%i pacchetti possono essere aggiornati."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i è un aggiornamento di sicurezza."
+msgstr[1] "%i sono aggiornamenti di sicurezza."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Errore nell'aprire la cache (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Errore: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Errore nel selezionare l'avanzamento (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Mostra i pacchetti che stanno per essere installati/aggiornati"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Mostra output leggibile sullo standard output"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Restituisce il numero di giorni per cui gli aggiornamenti di sicurezza sono "
+"installati senza supervisione (0 significa disabilitato)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Inserire la propria password per "
+"accedere alle segnalazioni di problemi dei programmi di sistema</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Rilevata segnalazione di crash"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Un'applicazione è andata in crash sul proprio sistema (adesso o in "
+"precedenza). Fare clic sull'icona di notifica per mostrare i dettagli. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Rilevazione dei servizi di rete disabilitata"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Attualmente la rete sta utilizzando un dominio «.local». Ciò non è "
+"raccomandato e risulta incompatibile con la rilevazione dei servizi di rete "
+"Avahi. Il servizio è stato disabilitato."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Rilevato supporto con pacchetti software"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">È stato rilevato un volume contenente "
+"pacchetti software.</span>\n"
+"\n"
+"Aprire tale volume con il gestore di pacchetti?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Avvia gestore pacchetti"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Rilevato volume di avanzamento"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">È stato rilevato un volume di "
+"distribuzione con pacchetti software.</span>\n"
+"\n"
+"Tentare di eseguire automaticamente l'avanzamento di versione da questo "
+"volume? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Avvia gestore pacchetti"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Esegui avanzamento"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Rilevato volume supplementare"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">È stato rilevato un volume contenente "
+"software supplementare.</span>\n"
+"\n"
+"Visualizzare o installare il contenuto? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Avvia installazione supplemento"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "Rilevato volume APTonCD"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">È stato rilevato un volume contenente "
+"pacchetti software non ufficiali.</span>\n"
+"\n"
+"Aprire tale volume con il gestore di pacchetti?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Informazioni disponibili"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Esegui questa azione ora"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr ""
+"Fare clic sull'icona di notifica per mostrare le informazioni disponibili.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Richiesto riavvio del sistema"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Riavviare il sistema per completare l'aggiornamento.\n"
+"\n"
+"Fare clic sull'icona di notifica per ulteriori dettagli."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Riavvio non riuscito"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Impossibile richiedere il riavvio, arrestare il sistema manualmente"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Mostra aggiornamenti"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Installa tutti gli aggiornamenti"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Verifica disponibilità aggiornamenti"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "È disponibile %i aggiornamento"
+msgstr[1] "Sono disponibili %i aggiornamenti"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Mostra notifiche"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "È in esecuzione un gestore di pacchetti"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"È disponibile %i aggiornamento. Fare clic sull'icona di notifica per "
+"visualizzarlo."
+msgstr[1] ""
+"Sono disponibili %i aggiornamenti. Fare clic sull'icona di notifica per "
+"visualizzarli."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Disponibili aggiornamenti software"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Le informazioni di aggiornamento non sono recenti. Questo può essere causato "
+"da problemi di rete o da un repository non più disponibile. Per aggiornare "
+"manualmente fare clic sull'icona di notifica, selezionare «Controlla gli "
+"aggiornamenti» e controllare se alcuni repository elencati generano errori."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Si è verificato un errore, eseguire Gestore pacchetti dal menù accessibile "
+"con il tasto destro del mouse oppure \"apt-get\" in un terminale per "
+"consultare gli errori.\n"
+"Il messaggio di errore è: «%s»"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Si è verificato un errore, eseguire Gestore pacchetti dal menù accessibile "
+"col tasto destro del mouse oppure \"apt-get\" in un terminale per consultare "
+"gli errori."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Di solito questo significa che i pacchetti installati presentano delle "
+"dipendenze irrisolte"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Si è verificato un problema durante la verifica aggiornamenti."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Errore interno"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- informa riguardo gli aggiornamenti"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Impossibile inizializzare l'interfaccia: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "errore sconosciuto"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "update-notifier"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Informazioni di aggiornamento</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Riavvio richiesto"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Riavvia in _seguito"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Per concludere l'installazione degli aggiornamenti è necessario riavviare il "
+"computer. Salvare il proprio lavoro prima di continuare."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Riavvia ora"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Esegue automaticamente l'azione predefinita"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Visualizza automaticamente i rapporti crash di apport"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Non mostra una finestra di dialogo o un'icona con la richiesta di riavvio. "
+"Questo è utile per gli amministratori che non vogliono concedere questa "
+"funzionalità agli utenti."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Nasconde la notifica di riavvio"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Se abilitata, l'utente viene avvisato riguardo i rapporti di apport sui "
+"crash."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Intervallo (in giorni) di esecuzione automatica degli aggiornamenti"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"L'azione predefinita, update-manager, verrà eseguita automaticamente. Tutti "
+"i dialoghi, come notifiche, richieste di riavvio e supporti rilevati, "
+"saranno aperti automaticamente"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"L'intervallo, in giorni, con cui update-manager viene avviato "
+"automaticamente per eseguire gli aggiornamenti normali. Tener conto che gli "
+"aggiornamenti di sicurezza vengono eseguiti immediatamente. Se impostata a "
+"\"0\", viene lanciato appena sono disponibili degli aggiornamenti."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "L'UID massimo riservato agli utenti di sistema"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Update-notifier non sarà avviato per gli utenti di sistema. Specifica il "
+"limite massimo di questo intervallo."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Controlla automaticamente la disponibilità di aggiornamenti"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Notifica aggiornamenti"

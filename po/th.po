@@ -1,0 +1,404 @@
+# Thai translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-02-15 17:10+0000\n"
+"Last-Translator: Roys Hengwatanakul <roysheng@gmail.com>\n"
+"Language-Team: Thai <th@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "ข้อผิดพลาดที่ไม่รู้จัก: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "มี %i แพคเกจที่สามารถปรับปรุงได้"
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "มี %i รายการที่เป็นการปรับปรุงด้านความปลอดภัย"
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "มีข้อผิดพลาด: ตอนเปิดข้อมูลที่เก็บไว้ (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "มีข้อผิดพลาด: มีจุดเสียหาย > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "มีข้อผิดพลาด: ในการกำหนดที่จะปรับปรุง (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "แสดงแพคเกจที่กำลังจะถูกติดตั้งหรือปรับปรุง"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "แสดงข้อมูลที่เข้าใจง่ายทาง stdout"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"คืนค่าเวลาเป็นวันนับตั้งแต่การปรับปรุงในด้านความปลอดภัยถูกติดตั้งโดยไม่ได้เฝ้า (0 "
+"หมายถึงปิดใช้ทำงาน)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger"
+"\">กรุณาใส่รหัสผ่านของคุณเพื่อที่จะดูรายงานปัญหาที่เกี่ยวกับโปรแกรมของระบบ</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "ตรวจพบรายงานข้อผิดพลาด"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"โปรแกรมเกิดขัดข้องในระบบของคุณ (ตอนนี้หรือที่ผ่านมา) คลิกที่สัญลักษณ์แจ้งเตือนเพื่อดูรายละเอียด "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "บริการค้นหาเครือข่ายถูกปิดการใช้งาน"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"เครือข่ายปัจจุบันของคุณมี่โดเมนของท้องที่อยู่(local domain), "
+"ซึ่งไม่แนะนำและไม่เข้ากับบริการค้นหาเครือข่ายของ Avahi บริการนี้จึงถูกปิดการใช้งาน"
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "เจอชุดซอฟต์แวร์แพคเกจ"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\"> ได้ตรวจพบ volumn ที่มีซอฟต์แวร์แพ็กเกจอยู่</"
+"span>\n"
+"\n"
+"คุณต้องการที่จะเปิดด้วยโปรแกรมจัดการแพ็กเกจหรือไม่?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "เริ่มโปรแกรมจัดการแพคเกจ"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "ตรวจพบ Volumn สำหรับอัพเกรด"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\"> ได้ตรวจพบ volumn "
+"ชุดแจกจ่ายที่มีซอฟต์แวร์แพ็กเกจอยู่</span>\n"
+"\n"
+"คุณอยากจะลองปรับปรุงรุ่นจากโวลุ่มนี้โดยอัตโนมัติหรือไม่? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "เริ่มโปรแกรมจัดการแพ็กเกจ"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "ดำเนินการอัพเกรด"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "ตรวจพบ Volume ส่วนเสริม"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"span weight=\"bold\" size=\"larger\">ตรวจพบ volume ส่วนเสริมที่มีซอฟต์แวร์อยู่ด้วย</"
+"span>\n"
+"\n"
+"คุณต้องการที่จะตรวจสอบ/ติดตั้งหรือไม่? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "เริ่มโปรแกรมติดตั้งส่วนเสริม"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "ตรวจพบ APTonCD volume"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">ตรวจพบ volume "
+"ที่มีซอฟต์แวร์แพ็กเกจที่ไม่เป็นทางการ</span>\n"
+"\n"
+"คุณต้องการที่จะเปิดด้วยโปรแกรมจัดการแพ็กเกจหรือไม่?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "มีข้อมูลใหม่"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "ดำเนินการเดี๋ยวนี้"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "คลิกที่สัญลักษณ์แจ้งเตือนเพื่อแสดงข้อมูลที่มีอยู่\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "ต้องการ การเริ่มระบบใหม่"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"เพื่อที่จะให้การปรับปรุงระบบของคุณเสร็จสมบรูณ์ กรุณาเริ่มเครื่องใหม่\n"
+"\n"
+"คลิกสัญลักษณ์แจ้งเหตุเพื่อดูรายละเอียด"
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "การ Reboot ล้มเหลว"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "การร้องขอให้ reboot ล้มเหลว, กรุณา shutdown ด้วยตนเอง"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "แสดงรายการอัพเดท"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "ติดตั้งข้อมูลอัพเดททั้งหมด"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "ตรวจสอบรายการอัพเดท"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "มี %i ข้อมูลอัพเดท"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "แสดงการแจ้งเตือน"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "โปรแกรมจัดการแพ็กเกจกำลังทำงานอยู่"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] "มี %i รายการที่สามารถปรับปรุงได้ คลิกสัญลักษณ์แจ้งเหตุเพื่อดูรายการที่ปรับปรุงได้"
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "มีข้อมูลอัพเดทซอฟต์แวร์"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"ข้อมูลรายการปรับปรุงล้าสมัย นี่อาจจะเป็นเพราะระบบเครือข่ายมีปัญหาหรือแหล่งข้อมูลใช้ไม่ได้แล้ว "
+"กรุณาทำการปรับปรุงเองด้วยการคลิกที่ไอคอนนีี้แล้วเลือก 'ตรวจหารายการปรับปรุง' "
+"และตรวจดูว่ามีปัญหากับแหล่งข้อมูลหรือเปล่า"
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"มีปัญหาเกิดขึ้น กรุณาเริ่มโปรแกรมจัดการแพ็กเกจจากเมนูโดยคลิกขวาหรือโปรแกรม apt-get "
+"ในเทอร์มินัลเพื่อที่จะตรวจสอบปัญหา\n"
+"ปัญหาคือ: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"มีปัญหาเกิดขึ้น กรุณาเริ่มโปรแกรมจัดการแพ็กเกจจากเมนูโดยคลิกขวาหรือโปรแกรม apt-get "
+"ในเทอร์มินัลเพื่อที่จะตรวจสอบปัญหา"
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr "นี่โดยปกติจะหมายความว่าแพ็กเกจที่คุณติดตั้งมีแพ็กเกจอื่นที่ต้องการแต่ไม่มีให้"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "เกิดปัญหาขณะตรวจอัพเดท"
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "ผิดพลาดภายใน"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- แจ้งเกี่ยวกับการปรับปรุง"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "การเริ่มต้น UI ล้มเหลว: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "ข้อผิดพลาดไม่ทราบสาเหตุ"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "update-notifier"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">ข้อมูลของการอัพเดท</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "ต้องการที่จะเริ่มเครื่องใหม่"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "เริ่มระบบใหม่ทีหลัง"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr "ต้องการเริ่มระบบใหม่หลังจากการปรับปรุงเสร็จสิ้น กรุณาบันทึกงานของท่านก่อนดำเนินการต่อไป"
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "เริ่มระบบใหม่เดี๋ยวนี้"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "เริ่มดำเนินการปริยายโดยอัตโนมัติ"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "แสดงรายงานข้อผิดพลาดอัตโนมัติ"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"ซ่อนหน้าต่างและไอคอนคำขอเริ่มระบบใหม่ "
+"เป็นเรื่องที่ดีสำหรับผู้ดูแลระบบที่ไม่ต้องการให้ผู้ใช้ทั่วไปเข้าถึงความสามารถนี้"
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "ซ่อนข้อความแจ้งเตือนการเริ่มระบบใหม่"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr "ถ้าปิดการใช้งาน, ผู้ใช้จะไม่ถูกเตือนเกี่ยวกับรายงานข้อผิดพลาดอัตโนมัติที่ยังค้างอยู่"
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "ระยะเวลา (เป็นวัน) เมื่อจะเริ่มทำการปรับปรุงแบบธรรมดาโดยอัตโนมัติ"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"โดยปริยาย(โปรแกรมจัดการแพคเกจ)จะเริ่มขึ้นโดยอัตโนมัติ กล่องโต้ตอบอย่างเช่น การแจ้งเหตุ "
+"ต้องการเริ่มเครื่องใหม่ มีสื่อใหม่ จะเปิดขึ้นโดยอัตโนมัติ"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"ระยะเวลา(เป็นวัน)เมื่อโปรแกรมจัดการแพคเกจจะเริ่มโดยอัตโนมัติสำหรับการปรับปรุงแบบปกติ "
+"กรุณารับทราบด้วยว่าการปรับปรุงด้านความปลอดภัยจะเริ่มโดยอัตโนมัติทันที ถ้าคุณตั้งค่าไว้ที่ \"0\" "
+"โปรแกรมก็จะเริ่มทันที่ถ้ามีข้อมูลใหม่"
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "UID ที่มากที่สุดที่สงวนไว้สำหรับผู้ใช้ของระบบ"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"โปรแกรมแ้จ้งเตือนการปรับปรุงจะไม่เริ่มสำหรับผู้ใช้ของระบบ นี่เป็นข้อกำหนดขอบเขตบนของระยะนี้"
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "ตรวจสอบการปรับปรุงที่ได้รับการอนุญาตโดยอัตโนมัติ"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "โปรแกรมแจ้งเตือนการปรับปรุง"

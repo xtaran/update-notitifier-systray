@@ -1,0 +1,426 @@
+# Hungarian translation of update-notifier
+# This file is distributed under the same license as the update-notifier package.
+# Copyright (C) 2005, Free Software Foundation, Inc.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.40\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-04-17 10:13+0000\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <gnome@gnome.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Ismeretlen hiba: „%s” (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i csomag frissíthető."
+msgstr[1] "%i csomag frissíthető."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i frissítés biztonsági frissítés."
+msgstr[1] "%i frissítés biztonsági frissítés."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Hiba a gyorsítótár megnyitásakor (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Hiba: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Hiba a frissítés kijelölésekor (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "A telepítésre/frissítésre kerülő csomagok listázása"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Az értelmezhető kimenetek megjelenítése"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Idő visszaadása napokban, amely után a biztonsági frissítések felügyelet "
+"nélkül települnek (0=letiltva)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Kérem adja meg a jelszót a "
+"rendszerprogramok hibajelentéseihez való hozzáféréshez</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Összeomlás-jelentés"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Egy alkalmazás összeomlott a rendszerben (most vagy régebben). A részletek "
+"megjelenítéséhez kattintson az értesítési ikonra. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Hálózati szolgáltatások felderítése letiltva"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Jelenlegi hálózatának .local a tartományneve, amely nem ajánlott és nem is "
+"kompatibilis az Avahi hálózati szolgáltatások felderítésével. A szolgáltatás "
+"letiltásra került."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Számos szoftvercsomag elérhető"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">A rendszer szoftvercsomagokat "
+"tartalmazó kötetet észlelt.</span>\n"
+"\n"
+"Meg kívánja nyitni a csomagkezelővel?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "A csomagkezelő indítása"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Frissítőkötet"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">A rendszer szoftvercsomagokat "
+"tartalmazó kötetet észlelt.</span>\n"
+"\n"
+"Megpróbál automatikusan frissíteni? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Csomagkezelő indítása"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Frissítés indítása"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Kiegészítő kötet"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">A rendszer egy szoftvereket tartalmazó "
+"kiegészítő kötetet észlelt</span>\n"
+"\n"
+"Kívánja megtekinteni/telepíteni a tartalmát? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "A kiegészítő telepítésének indítása"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTonCD kötet"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">A rendszer egy nem hivatalos "
+"szoftvereket tartalmazó kötetet észlelt</span>\n"
+"\n"
+"Meg kívánja nyitni a csomagkezelővel?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Információk érhetők el"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Ezen művelet futtatása"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr ""
+"Kattintson az értesítési ikonra az elérhető információk megjelenítéséhez\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "A rendszer újraindítása szükséges"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"A rendszer frissítésének befejezése érdekében indítsa újra azt.\n"
+"\n"
+"A részletekért kattintson az értesítési ikonra."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Újraindítás meghiúsult"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr ""
+"Újraindítási kérés sikertelen, kérem állítsa le saját kezűleg a rendszert"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Frissítések megjelenítése"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Minden frissítés telepítése"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Frissítések keresése"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "%i frissítés érhető el"
+msgstr[1] "%i frissítés érhető el"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Értesítések megjelenítése"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Egy csomagkezelő dolgozik"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"%i frissítés érhető el. Kattintson az értesítő ikonra az elérhető frissítés "
+"megtekintéséhez!"
+msgstr[1] ""
+"%i frissítés érhető el. Kattintson az értesítő ikonra az elérhető "
+"frissítések megtekintéséhez!"
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Szoftverfrissítések érhetők el"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"A frissítési információk elavultak, ezt hálózati probléma vagy egy már el "
+"nem érhető tároló okozhatja. Kattintson erre az ikonra, majd válassza a "
+"„Frissítések keresése” menüpontot."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Hiba történt, futtassa a csomagkezelőt a helyi menüből vagy az apt-get "
+"parancsot a terminálban a hiba okának kiderítéséhez.\n"
+"A hibaüzenet: „%s”."
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Hiba történt, futtassa a csomagkezelőt a helyi menüből vagy az apt-get "
+"parancsot a terminálban a hiba okának kiderítéséhez."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Ez általában azt jelenti, hogy a telepített csomagjainak teljesítetlen "
+"függőségei vannak"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Probléma történt a frissítések keresésekor."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Belső hiba"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- értesítés a frissítésekről"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "A felhasználói felület előkészítése sikertelen: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "ismeretlen hiba"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "frissítésfigyelő"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Frissítési információk</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Újraindítás szükséges"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Újraindítás _később"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"A számítógépet újra kell indítani a frissítések telepítésének befejezéséhez. "
+"A folytatás előtt mentse munkáját."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "Újrain_dítás most"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Alapértelmezett művelet automatikus indítása"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Apport összeomlás-jelentések automatikus megjelenítése"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Ne jelenítsen meg újraindítás szükséges ikont vagy ablakot. Ez "
+"rendszergazdáknak hasznos, akik el akarják rejteni ezt a szolgáltatást a "
+"felhasználók elől."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Újraindítási értesítés elrejtése"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Ha ez ki van kapcsolva, akkor a felhasználó nem kap értesítést a függőben "
+"lévő összeomlás-jelentésekről."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Az automatikus frissítés gyakorisága (napokban)."
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Az alapértelmezett parancs (Frissítéskezelő) automatikusan elindul. A "
+"párbeszéddoboz, mint minden értesítőbuborék esetén, melyhez újraindítás "
+"szükséges, az \"Adathordozót találtam\" üzenet jelenik meg."
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"A Frissítéskezelő automatikus indítása ennyi naponként a normál frissítések "
+"telepítéséhez. A biztonsági frissítéseket a Frissítéskezelő azonnal indítja. "
+"A frissítések elérhetővé válásukkor azonnal indulnak, ha időközként „0” "
+"napot állít be."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Felhasználói azonosítók maximális száma"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"A Frissítésfigyelőt nem futtathatják azok a felhasználók, akik nem "
+"rendelkeznek megfelelő jogosultságokkal."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Frissítések keresése automatikusan"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Frissítésfigyelő"

@@ -1,0 +1,436 @@
+# Romanian translation of update-notifier.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the update-notifier package.
+# Dan Damian <dand@gnome.ro>, 2005.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-04-17 10:15+0000\n"
+"Last-Translator: Dan Damian <dand@ubuntu.ro>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
+"== 0) && (n != 0))) ? 2: 1));\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Eroare necunoscută: „%s” (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i pachet poate fi actualizat."
+msgstr[1] "%i pachete pot fi actualizate."
+msgstr[2] "%i de pachete pot fi actualizate."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i actualizare este o actualizare de securitate."
+msgstr[1] "%i actualizări sunt actualizări de secutritate."
+msgstr[2] "%i de actualizări sunt actualizări de securitate."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Eroare: Deschiderea memoriei tampon (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Erore: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Eroare: Marcarea actualizării (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Arată pachetele care vor fi instalate/actualizate"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Afișează în stdout ieşire lizibilă"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Afișează ora, în zilele în care sunt instalate actualizări de securitate "
+"nesupravegheate (0 înseamnă dezactivat)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Introduceți parola pentru a accesa "
+"sistemul de raportare a problemelor</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "S-a găsit un raport de erori"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"O aplicație din sistem a eșuat (acum sau în trecut). Selectați pictograma de "
+"notificare pentru afișarea detaliilor. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Descoperirea serviciilor de rețea a fost dezactivată"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Există deja un domeniu .local în retea. Acest lucru nu este recomandat și "
+"este incompatibil cu serviciul Avahi de descoperire a serviciilor de rețea. "
+"Serviciul a fost dezactivat."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Au fost detectate numeroase pachete sotware"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Un volum cu pachete software a fost "
+"detectat.</span>\n"
+"\n"
+"Doriți să deschideți administratorul de pachete?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Pornește administratorul de pachete"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Volum de actualizări detectat"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Un volum distribuție cu pachete "
+"software a fost detectat.</span>\n"
+"\n"
+"Doriți să faceți automat actualizări de pe el? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Pornește administratorul de pachete"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Pornește actualizarea"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "A fost detectat un volum conținând module"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">A fost detectat un volum modul "
+"conținând programe.</span>\n"
+"\n"
+"Doriți să îl deschideți folosind administratorul de pachete? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Porneşte instalarea modulului"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "S-a detectat un volum APTonCD"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">A fost detectat un volum conținând "
+"programe neoficiale.</span>\n"
+"\n"
+"Doriți să îl deschideți folosind administratorul de pachete?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Informație disponibilă"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Execută acum această acțiune"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr ""
+"Apăsați pictograma de notificare pentru a afișa informațiile disponibile.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Este necesară repornirea sistemului"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Pentru a finaliza actualizarea sistemului, vă rugăm să reporniți.\n"
+"\n"
+"Pentru detalii clic pe pictograma de notificare."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Repornirea a eșuat"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Cererea de repornire a eșuat, vă rugăm să închideți manual"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Afișează actualizările"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Instalează toate pachetele actualizate"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Verifică dacă există actualizări"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Este disponibilă %i actualizare"
+msgstr[1] "Sunt disponibile %i actualizări"
+msgstr[2] "Sunt disponibile %i pachete actualizate"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Afișează notificările"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Un adminstrator de pachete funcționează în acest moment"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Există %i actualizare disponibilă. Pentru a afișa actualizarea disponibilă, "
+"faceți clic pe pictograma de notificare."
+msgstr[1] ""
+"Există %i actualizări disponibile. Pentru a afișa actualizările disponibile, "
+"faceți clic pe pictograma de notificare."
+msgstr[2] ""
+"Există %i de actualizări disponibile. Pentru a afișa actualizările "
+"disponibile, faceți clic pe pictograma de notificare."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Sunt disponibile actualizări software"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Informațiile de actualizare sunt depășite. Aceste lucru este cauzat de "
+"probleme de rețea sau de o arhivă ce nu mai este disponibilă. Vă rugăm să "
+"actualizați manual prin clic pe această pictogramă și apoi alegerea "
+"„Verifică dacă există actualizări noi” și verificarea dacă una dintre "
+"arhivele din listă eșuează."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"S-a produs o eroare, rulați Administrator de pachete din meniul clic-dreapta "
+"sau apt-get într-un terminal pentru a vedea ce nu e in regulă.\n"
+"Mesajul de eroare a fost: „%s”"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"S-a produs o eroare, vă rugăm să rulați Package Manager din meniul clic "
+"dreapta sau apt-get într-un terminal pentru a vedea care sunt problemele."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Aceasta înseamnă de obicei că pachetele instalate au dependențe nesatisfăcute"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "A aparut o problemă la verificarea actualizărilor."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Eroare internă"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- informare despre actualizări"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "S-a eșuat inițializarea interfeței cu utilizatorul: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "eroare necunoscută"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "update-notifier"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Informații actualizare</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Este necesară o repornire"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Repornește mai _târziu"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Pentru a finaliza actualizările, calculatorul trebuie repornit. Înainte de a "
+"continua, salvați modificările curente."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Repornește acum"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Lansează automat acțiunea implicită"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Afișează automat rapoartele de erori generate de apport"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Nu afișa o iconiță sau un dialog care să ceară repornirea. Aceasta este "
+"utilă pentru administratorii de sistem care doresc să împiedice repornirea "
+"sistemului de către utilizatori."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Ascunde notificarea de repornire"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Dacă este dezactivat. utilizatorul nu va fi anunțat despre rapoartere de "
+"erori în curs."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr ""
+"Intervalul (în zile) la care să se facă verificarea automată a "
+"actualizărilor normale"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Acțiunea implicită (update-manager) va fi pornită automat. Toate casetele de "
+"dialog cum ar fi referințele de notificare, repornire necesară, unitate "
+"media detectată se vor deschide automat"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Intervalul (în zile) la care se lansează automat update-manager pentru "
+"actualizări normale. Rețineți că se va lansa automat imediat pentru "
+"actualizări de securitate. Dacă îl definiți ca „0” se va lansa de asemenea "
+"imediat ce actualizările sunt disponibile."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "UID-ul maxim care este rezervat pentru utilizatorii de sistem"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"„Notificare actualizări” nu va fi pornit pentru utilizatorii de sistem, "
+"aceasta specifică limita superioară a acestei raze."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Verifică automat actualizările disponibile"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Notificare actualizări"

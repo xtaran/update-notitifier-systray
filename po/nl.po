@@ -1,0 +1,426 @@
+# Dutch translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-03-31 10:28+0000\n"
+"Last-Translator: cumulus007 <cumulus0007@gmail.com>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Onbekende fout: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "Er kan %i pakket worden bijgewerkt"
+msgstr[1] "Er kunnen %i pakketten worden bijgewerkt"
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i update is een veiligheidsupdate"
+msgstr[1] "%i updates zijn veiligheidsupdates"
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Fout: openen van cache (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Fout: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Fout: Upgrade markeren (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Pakketten weergeven die geïnstalleerd/bijgewerkt zullen worden"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Gemakkelijk leesbare uitvoer op stdout weergeven"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Geef de tijd in dagen die gewacht moet worden totdat de veiligheidsupdates "
+"automatisch geïnstalleerd worden. (0 betekent uitgeschakeld)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Geef uw wachtwoord om de "
+"probleemrapporten van uw systeemprogramma's te openen.</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Foutrapport gevonden"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Een programma op uw computer is zojuist of onlangs vastgelopen. Klik op het "
+"meldingspictogram om meer details te tonen. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Ontdekken van netwerkdiensten uitgeschakeld"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Uw huidige netwerk heeft een .local-domein. Dat wordt niet aanbevolen en is "
+"niet bruikbaar met de Avahi-netwerkservicedetector. De service is daarom "
+"uitgeschakeld."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Schijf met softwarepakketten gevonden"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Er is een schijf met softwarepakketten "
+"gevonden.</span>\n"
+"\n"
+"Wilt u deze openen met de pakketbeheerder?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Pakketbeheer starten"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Upgradevolume gevonden"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Er is een distributieschijf met "
+"softwarepakketten gevonden.</span>\n"
+"\n"
+"Wilt u deze gebruiken voor een automatische upgrade? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Pakketbeheer opstarten"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Upgrade uitvoeren"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Aanvullend volume gedetecteerd"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Er is een aanvullend volume met "
+"softwaretoepassingen gevonden.</span>\n"
+"\n"
+"Wilt u de inhoud bekijken/installeren? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Installatieprogramma voor add-ons starten"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTopCD-volume gevonden"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Er is een schijf met onofficiële "
+"softwarepakketten gevonden.</span>\n"
+"\n"
+"Wilt u deze met de pakketbeheerder openen?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Informatie beschikbaar"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "Deze actie nu uitvoe_ren"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "Klik op het meldingspictogram om de informatie weer te geven.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "De computer moet herstart worden"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Om de update van uw systeem te voltooien, moet uw computer opnieuw worden "
+"opgestart.\n"
+"\n"
+"Klik op het meldingspictogram voor details."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Herstarten mislukt"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Het herstarten is niet gelukt, sluit de computer handmatig af."
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Updates weergeven"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Alle updates installeren"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Controleren op updates"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Er is %i update beschikbaar"
+msgstr[1] "Er zijn %i updates beschikbaar"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Meldingen weergeven"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Er is al een programma voor pakketbeheer opgestart"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Er is %i update beschikbaar. Klik op het meldingspictogram om de beschikbare "
+"update weer te geven."
+msgstr[1] ""
+"Er zijn %i updates beschikbaar. Klik op het meldingspictogram om de "
+"beschikbare updates weer te geven."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Software-updates beschikbaar"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"De update-informatie is verouderd. Dit kan veroorzaakt zijn door "
+"netwerkproblemen of door een softwarebron die niet meer beschikbaar is. "
+"Probeer handmatig bij te werken door op dit pictogram te klikken en daarna "
+"te kiezen voor \"Controleren op updates\".  Controleer of een van de "
+"getoonde softwarebronnen niet werkt."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Er is een fout opgetreden. Start de pakketbeheerder vanuit het contextmenu, "
+"of start apt-get in een terminalvenster om te zien wat er mis is.\n"
+"De foutmelding was: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Er is een fout opgetreden. Start de pakketbeheerder vanuit het contextmenu, "
+"of start apt-get in een terminalvenster om te zien wat er mis is."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Dit betekent meestal dat enkele softwarepakketten op uw computer afhankelijk "
+"zijn van pakketten die (nog) niet zijn geïnstalleerd."
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Er was een probleem bij het controleren op updates."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Interne fout"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- informeren over updates"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "UI initialiseren mislukt: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "onbekende fout"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "update-melder"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Update-informatie</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Herstarten vereist"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "_Later herstarten"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"De computer moet herstart worden om de installatie van de updates te "
+"voltooien. Sla uw werk op alvorens u verdergaat."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "Nu he_rstarten"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "De standaardactie automatisch starten"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Apport-crashrapporten automatisch tonen"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Geen pictogram of dialoogvenster tonen voor vereiste herstart. Dit is nuttig "
+"voor systeembeheerders die deze optie willen uitschakelen voor gebruikers."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Herstartmelding verbergen"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Als dit is uitgeschakeld, zal de gebruiker niet meer op de hoogte gesteld "
+"worden over wachtende apport-crashrapporten."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Interval (in dagen) voor automatisch opstarten voor normale updates"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"De standaard actie (update-manager) zal automatisch gestart worden. Alle "
+"dialoogvensters zoals meldingsberichten, 'herstart vereist' en 'media "
+"gedetecteerd' openen automatisch."
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Het interval (in dagen) voor automatisch opstarten van update-manager voor "
+"normale updates. Merk op dat deze onmiddellijk opgestart wordt wanneer er "
+"veiligheidsupdates zijn. Wanneer u dit op \"0\" instelt, zal deze ook "
+"gestart worden wanneer er normale updates beschikbaar zijn."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Het maximale UID dat gereserveerd is voor systeemgebruikers"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Update-notifier zal niet opgestart worden voor systeemgebruikers, dit "
+"specificeert de bovengrens van deze reeks."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Automatisch op updates controleren"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Updatemelder"

@@ -1,0 +1,423 @@
+# Kazakh translation for update-notifier
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-02-24 08:30+0000\n"
+"Last-Translator: jmb_kz <Unknown>\n"
+"Language-Team: Kazakh <kk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Белгісіз қате: \"%s\" (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i пакеті жаңартылуы мүмкін."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i жаңартуы қауіпсіздік жаңартуы болып келеді"
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Қате: Кэшті ашу (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Қате: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Қате: Жаңартуларды белгілеу (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Орнатылатын/жаңартылатын пакеттерді көрсету"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "stdout-қа оқылатын мәлімдемелерді шығару"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Әрбір белгіленген күн сайын қауіпсіздік жаңартулар пайдаланушысыз, яғни "
+"автоматты түрде орнатылуы мүмкін. Белгіленген күндердің санын енгізіңіз (бұл "
+"мүмкіндікті болдырмау үшін 0 санын беріңіз)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Жүйелі бағдарламалардың қателер туралы "
+"есептерге рұқсатты алу үшін, құпия сөзін енгізіңіз</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Қате туралы есеп табылды"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Бағдарлама құлап түсті (қазір немесе бұрын). Қосымша ақпарат алу үшін "
+"мәлімдемелер суреттемесін тышқанмен шертіңіз. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Желілік ресурстарды іздеу сервисі жұмыс істемей тұр"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Avahi желілік ресурстарды іздеу сервисі, ағымдағы желінің локальді доменімен "
+"(.local) үйлесімсіз және жұмыс істеу артық көрінбейді."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Бағдалармалық пакеттері бар диск табылды"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Бағдалармалық пакеттері бар диск "
+"табылды.</span>\n"
+"\n"
+"Оны пакеттер менеджер көмегімен ашқыңыз келеді ме?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Пакеттер менеджерін ашу"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Жаңартулары бар диск табылды"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Бағдарламалардың пакеттері бар "
+"дистрибутив дискісі табылды.</span>\n"
+"\n"
+"Жүйені осы дискіден автоматты түрде жаңарту мүмкіндігін жасайын ба? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Пакеттер менеджерін ашу"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Жаңартуды бастау"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Қосымшалары бар диск табылды"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Қосымша бағдарламалардың пакеттер "
+"дискісі табылды.</span>\n"
+"\n"
+"Сіз осы дискіні пакеттер менеджерімен ашқыңыз келеді ме? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Қосымшалар орнатқыш бағдарламасын ашу"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTonCD дискісі табылды"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Ресми емес бағдарламалардың пакеттер "
+"дискісі табылды.</span>\n"
+"\n"
+"Сіз осы дискіні пакеттер менеджерімен ашқыңыз келеді ме?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Ақпарат жетімді"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Осы амалды казір орындау"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr ""
+"Жетімді ақпарат көрсету үшін, мәлімдеме суреттемесіне бір рет тышқанмен "
+"шертіңіз.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Жүйенің қайта жүктелуі қажет"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Өзіңіздің жүйеңізді жаңарту үшін, оны қайта жүктеңіз.\n"
+"\n"
+"Қосымша ақпарат алу үшін мәлімдеме суреттемесіне тышқанменен бір рет шертіңіз"
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Қайта жүктелі сәтсіз"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Қайта жүктелу мүмкін емес, кейінірек өзіңіз сөндіріңіз"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Жаңартуларды көрсету"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Барлық жаңартуларды орнату"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Жаңартулардың барын тексеру"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "%i жаңарту бар"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Мәлімдемелерді көрсету"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Пакетов менеджері жұмыстеп жатыр"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"%i жаңартуы жетімді. Жетімді жаңартуды қарап шығұ үшін, мәлімдеменің "
+"суреттемесіне тышқанмен бір рет шертіңіз."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Бағдарламалардың жаңартулары жетімді"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Жаңартулар туралы ақпарат ескірді. Бұл желілік мәселелерге немесе "
+"репозиторияның ұзақ уақыт бойы жетімсіз болғанымен байланысты болуы мүмкін. "
+"Осы мәлімдеме суреттемесіне басып, мәзірден \"Жаңартуларға жетімдігін тексеру"
+"\" пунктін таңдап, мүмкін болатын репозиторий қателерін байқап көріңіз."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Қате туындады. Пакеттер менеджерін контекст менюінен немесе терминалда apt-"
+"get коммандасын қолданып, толық ақпарат ала аласыздар.\n"
+"Қате туралы мәлімдеме: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Қате туындады. Қосымша ақпарат алу үшін пакеттер менеджерін контексттік "
+"мәзірінде немесе терминалда apt-get бағдарламасын ашыңыз."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Әдетте бұндай қате орнатылған пакеттерінде рұқсат берілмеген тәуелділіктері "
+"бар болуымен байланысты"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Жаңартуларды іздеу кезінде қате туындады."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Ішкі қате"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- жаңартулар жайлы мәлімдеу"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "%s графикалық интерфейстің жүктеуі сәтсіз болды.\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "белгісіз қате"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "жаңартулар жайлы мәлімдемелер"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Жаңартулар бойынша ақпарат</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Компьютерді қайта жүктеу қажет"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Қайта жүктеуді _кейінірек орындау"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Жаңартуды толығымен орнату үшін, компьютерді қайта жүктеу қажет. Әрі қарай "
+"жалғастыру алдында, өзіңіздің жұмысыңызды сақтаңыз."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Қазір қайта жүктеу"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Қалыпты әрекеттерді автоматты түрде жасау"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Қателер есептерін автоматты түрде көрсету"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Жүйенің қайта жүктелуінің қажеттігін немесе ол туралы мәлімдемені көрсетпеу. "
+"Бұл мүмкіншілік жүйелік администраторларға, жай пайдаланушыларға осындай "
+"текті ақпаратты көрсетпеу үшін, пайдалы болуы мүмкін."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Қайта жүктеу қажеттегінің мәлемдемені жасыру"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Егер де бұл функция өшірілген болса, пайдаланушы apport туралы ағымдағы "
+"қателер есептерін көрмейтін болады."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Автоматты жаңартуларды тексеру интервалы (күндер өлшенеді)"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Жаңарту менеджерінің қалыпты әрекеті автоматты түрде орындалады. Өңдеушілер "
+"мәлімдемелері, қайта жүктеу қажеттігі туралы мәлімдемелері, сыртқы ақпарат "
+"тасылмалдаушылар табылу туралы мәлімдемелер сияқты, барлық сұхбат терезелері "
+"автоматты түрде ашылатын болады."
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Интервал (в днях) для автозапуска менеджера обновлений для обычных "
+"обновлений. Обратите внимание на то, что он будет запущен автоматически для "
+"обновления системы безопасности. Если Вы укажете \"0\", менеджер будет "
+"автоматически запущен, как только станут доступны обновления"
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Жүйелік пайдаланушылар үшін резервтелген максималды UID"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Напоминание об обновлениях не будет запускаться для системных пользователей, "
+"этот параметр указывает верхнее значение этого диапазона."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Жаңартулардың жетімдігін автоматты түрде тексеру"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Жаңартулар мәлімдемелері"

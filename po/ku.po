@@ -1,0 +1,390 @@
+# Kurdish translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-09-24 08:39+0000\n"
+"Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
+"Language-Team: Kurdish <ku@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Çewtiya Nenas: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i pakêt kare bê rojanekirin."
+msgstr[1] "%i pakêt karin bên rojanekirin."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i rojanekirin; rojanekirina ewlekariyêye"
+msgstr[1] "%i rojanekirin; rojanekirinên ewlekariyêne"
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Çewtî: Di vekirina pêşbîrêde (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Çewtî:Hejmara Şikestî > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Çewtî:Deqkirina bilindkirinê (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Pakêtên kû dê bêne Sazkirin/Bilinkirin nîşanbide."
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Di stdout de derketiyeke ku mirov bikarin bixwînin nîşan bide"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Ji kerema xwe re şîfreya xwe têkevinê "
+"jibo gihîştina gilîkirina pirsgirêkên Bernamên Pergalê</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Rapora şikestinê derkete holê"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Di pergala te de bernameyek têkçû (niha an berê). Li ser îkona nîşeyan "
+"bitikîne. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Dîtina servîsên torê ne çalak e"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Yekîneya Pakêtên Nivîsbariyê Hat Dîtin"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Volumeke pakêtên nivisbariyê hatiye "
+"dîtin</span>\n"
+"\n"
+"Tu dixwazî wê bi gerînendeyê pakêtan re vekî?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Rêvebirê Pakêtan Bide Destpêkirin"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Voluma bilindkirinê hatiye dîtin"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Nirxê belavkirina pakêtên nivîsbariyê "
+"hatiye derxistin.</span>\n"
+"\n"
+"Tu dixwazî bixweber jê sûdê wergirî? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Dest bi gerînendeyê paketan bike"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Bilindkirinê bixebitîne"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Yekîneya Pêvekê Hat Dîtin"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Sazkera pêvekan bide destpêkirin"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "Medyaya APTonCD hat dîtin"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Agahî hene"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "Vê çalakî _niha bimeşîne"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "Ji bo dîtina agahiya amade li ser nîşana agahdarker bitikîne.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Ji nû destpêkirina pergalê pêwîst e"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Ji bo qedandina rojanekirina pergala xwe, ji kerema xwe re ji nû ve bidin "
+"destpêkirin."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Dîsdestpêkirin biserneket"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr ""
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Rojanekirinan nîşan bide"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Hemû rojanekirinan saz bike"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Li rojanekirinan bigere"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "%i rojanekirin heye"
+msgstr[1] "%i rojanekirin hene"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Têbiniyan nîşan bide"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Gerîneneyekî paketan dixebite"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"%i rojanekirin amade ye. Ji bo dîtina rojanekirinên amade pêl îkona "
+"agahdarkirinê bikin."
+msgstr[1] ""
+"%i rojanekirin amade ne. Ji bo dîtina rojanekirinên amade pêl îkona "
+"agahdarkirinê bikin."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Rojanekirinê nivîsbariyê hene"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Çewtiyek çêbû, ji bo diyarkirina çewtiyê ji kerema xwe re an Rêvebirê "
+"Pakêtan ji menûya bi tikandina rastê bidin destpêkirin an jî di termînalê de "
+"bidin xebitandin."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Mana vê bi giştî ev e: Di paketên sazkirî yên te de bindestî (dependency) "
+"yên neamade (unmet) hene."
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Dema li rojanekirina dihat nihêrtin, çewtiyek çêbû."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Çewtiya hundirî"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr ""
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr ""
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "çewtiya nenas"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "Danezanerê-rojanekirinê"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Agahiya rojanekirinê</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Dîsdestpêkirin Pêwist e"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "_Piştre ji nû ve dest pê bike"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "Niha ji nû ve bide _destpêkirin"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Çalakiya heyî bixweber bide destpêkirin"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Raportên têkçûnê werin jixweber nîşân dayîn"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Heke ev nêçalak be, agahdarî li ser raportên têkçûnê yên apport nayê dayîn."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Ji bo rojanekirinên asayî navbera xebitandina bixweber (weke roj)"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr ""
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Bixweber li rojanekirinên amade bigere"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Hişyarkera Rojanekirinê"

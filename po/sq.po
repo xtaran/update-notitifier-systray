@@ -1,0 +1,427 @@
+# Albanian translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-10-16 03:45+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Gabim i Panjohur: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i paketë mund të rifreskohet"
+msgstr[1] "%i paketa mund të rifreskohen"
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i rifreskimi është një rifreskim sigurie."
+msgstr[1] "%i rifreskimet janë rifreskime sigurie."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Gabim: Në hapjen e rezervës (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Gabim: Llogari e Dëmtuar > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Gabim: Po e markojmë ngritjen (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Shfaq paketat që do të instalohen/rifreskohen"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Shfaq tekst të lexueshëm nga njerëzit në stdout"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Jep kohën në ditë kur përditësimet e sigurisë instalohen automatikisht (0 do "
+"të thotë të çaktivizuara)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Ju lutemi vendosni fjalëkalimin tuaj "
+"për të hyrë në raportet e problemeve të programeve të sistemit</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "U dallua një raport mosfunksionimi"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Një program pushoi së funksionuari në sistemin tuaj (tani apo në të "
+"shkuarën). Kliko në ikonën e lajmërimit për të shfaqur detajet. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Shërbimi i zbulimit të rrjetit u çaktivizua"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Rrjeti juaj i tanishëm ka një domein .local, i cili nuk rekomandohet dhe "
+"është jo kompatibël me shërbimin e zbulimit të rrjetit Avahi. Shërbimi është "
+"çaktivizuar."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "U Dallua Një Volum i Paketave të Programeve"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">U dallua një volum me paketa "
+"programesh.</span>\n"
+"\n"
+"Dëshironi ta hapni atë me menaxhuesin e paketave?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Nis Menaxhuesin e Paketave"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "U dallua një volum më modern"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">U dallua një volum me paketa "
+"programesh.</span>\n"
+"\n"
+"Do të donit të përpiqeni të merrni automatikisht programe prej tij? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Fillo menaxhuesin e paketave"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Nis rifreskimin"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Një volum shtesë u dallua"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Një volum shtesë me programe u dallua."
+"</span>\n"
+"\n"
+"Do të donit të shfaqnit/instalonit përmbajtjen e tij? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Nis instaluesin e shtesave"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "U dallua një volum APT në CD"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">U dallua një volum me paketa jo "
+"zyrtare programesh.</span>\n"
+"\n"
+"Do të donit ta hapnit atë me menaxhuesin e paketave?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Ka informacion të disponueshëm"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Kryej tani këtë veprim"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "Kliko tek ikona e njoftimit për të shfaqur informacionin.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Është e nevojshme rinisja e sistemit"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Për të kompletuar rifreskimin e sistemit, ju lutemi riniseni atë.\n"
+"\n"
+"Klikoni në ikonën lajmëruese për më tepër detaje."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Rinisja dështoi"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Dështuam në kërkesën për rindezje, ju lutemi fikeni manualisht"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Shfaq përditësimet"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Instalo të gjithë përditësimet"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Kontrollo për përditësime"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Gjendet %i përditësim në dispozicion"
+msgstr[1] "Gjenden %i përditësime në dispozicion"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Shfaq njoftimet"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Një manazhues paketash është duke punuar"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Rifreskimi %i është i disponueshëm. Kliko në ikonën lajmëruese për të "
+"shfaqur rifreskimin e disponueshëm."
+msgstr[1] ""
+"Rifreskimet %i janë të disponueshme. Kliko në ikonën lajmëruese për të "
+"shfaqur rifreskimet e disponueshme."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Ka programe të përditësuar"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Informacioni i rifreskimit nuk është koherent. Kjo mund të shkaktohet nga "
+"problemet e rrjetit ose nga një magazinë e cila ka pushuar së qeni e "
+"disponueshme. ju lutemi rifreskojeni në mënyrë manuale duke klikuar në këtë "
+"ikonë dhe duke përzgjedhur 'kërko për rifreskime', pastaj kontrolloni nëse "
+"disa nga magazinat në listë dështojnë."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Ndodhi një gabim, ju lutemi nisni Menaxhuesin e Paketave nga menuja e "
+"klikimit me të djathtën ose apt-get në terminal për të parë ku qëndron "
+"gabimi.\n"
+"Mesazhi i gabimit ishte: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Ndodhi një gabim, ju lutemi nisni menxhuesin e paketave nga menuja e "
+"klikimit me të djathtën ose apt-get në një terminal për të parë ku qëndron "
+"gabimi."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Zakonisht, kjo do të thotë që u instaluat paketa që i mungojnë varësitë."
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Ndodhi një gabim gjatë kërkimit për rifreskime."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Gabim i brendshëm"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- informo rreth përditësimeve"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Dështuam në nisjen e UI: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "gabim i panjohur"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "njoftuesi i rifreskimeve"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Rifresko informacionin</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Kërkohet Rinisja"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Rinis më _vonë"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"kompjuteri ka nevojë të rindizet për të përfunduar përditësimet. ju lutemi "
+"të ruani punën tuaj para se të vazhdoni."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Rinis tani"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Automatikisht nis veprimin e parazgjedhur"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Shfaq raportet e rënies së apport automatikisht"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Mos e shfaq një ikonë apo dialog që kërkohet rindezja. Kjo është e dobishme "
+"për administratorët e sistemit të cilët duan që ky mesazh të mos u dalë "
+"përdoruesve."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Fshihe njoftimin e rindezjes"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Nëse kjo çaktivizohet, përdoruesi nuk do të njoftohet për raportet e rënies "
+"apport të ngelura pezull."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Intervali (në ditë) kur të kërkojmë për rifreskime normale"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Veprimi i parazgjedhur (menaxhuesi i rifreskimeve) do të nisë automatikisht. "
+"Të gjitha kutitë e dialogut, siç janë pikat lajmëruese, kërkesa për rinisje, "
+"apo dallimi i mediave do të hapen automatikisht"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Intervali (në ditë) kur vetë niset menaxhuesi i rifreskimeve për rifreskimet "
+"normale. Ju lutemi të keni parasysh që ai do të niset për rifreskimet e "
+"sigurisë menjëherë. Nëse e vendosni në \"0\" ai do të nisë sapo rifreskimet "
+"të jenë të disponueshme."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "UID maksimale është rezervuar për përdoruesit e sistemit"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Njoftuesi i rifreskimeve nuk do të nisë për përdoruesit e sistemit, kjo "
+"specifikon kufirin e sipërm të këtij niveli."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Kontrollo automatikisht për përditësimet e disponueshme"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Njoftuesi i Rifreskimeve"

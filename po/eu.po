@@ -1,0 +1,428 @@
+# Basque translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-10-21 13:28+0000\n"
+"Last-Translator: Mikel Pascual Aldabaldetreku <mikel.paskual@gmail.com>\n"
+"Language-Team: Basque <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Errore Ezezaguna: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "Pakete %i eguneratu daiteke"
+msgstr[1] "%i pakete eguneratu daitezke"
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "Eguneraketa %i segurtasun-eguneraketa da"
+msgstr[1] "%i eguneraketa segurtasun-eguneraketak dira"
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Errorea: Cache-a zabaltzen (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Errorea: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Errorea: Eguneraketa markatzen (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Erakutsi instalatu/eguneratuko diren diren paketeak"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Edonork irakurtzeko mezalako mezuak erakutsi"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Segurtasun eguneraketak automatikoki zenbat egunetan behin instalatuko diren "
+"itzuli (0 bada, ezgaituta dago)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Mesedez, sar ezazu zure pasahitza, "
+"honela sistema-programen erroreen txostenetara sartu ahal izateko</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Errore-txostena detektatu da"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Aplikazio bat ezustean itxi da zure sisteman (orain edo lehen). Ohartarazte "
+"ikurrean klik egin xehetasunak ikusteko. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Sareen autodetekziorako zerbitzua ezgaituta"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Zure oraingo sareak .local domeinu bat dauka; halakoak gaitzetsi egiten ditu "
+"sareen autodetekziorako Avahi zerbitzuak, eta beronekin bateraezinak dira. "
+"Zerbitzua ezgaitua izan da."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Software-Pakete Bolumena Detektatua"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Software-paketeak dituen bolumen bat "
+"detektatu da.</span>\n"
+" \n"
+"Pakete-kudeatzailearekin iriki nahi al zenuke?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Pakete kudeatzailea abiatu"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Eguneratze-bolumen bat aurkitu da"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Software-paketeak dituen distribuzio-"
+"bolumen bat aurkitu da.</span>\n"
+"\n"
+"Eguneratze bat egiten saiatzeko erabili nahi al duzu? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Pakete-kudeatzailea abiarazi"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Eguneratu"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Bolumen gehigarria detektatu da"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Software aplikazioak dauzkan bolumen "
+"gehigarri bat detektatu da.</span>\n"
+"\n"
+"Edukiak ikusi/instalatu nahi al dituzu? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Gehigarri-instalatzailea abiarazi"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTonCD bolumena detektatu da"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Software-pakete ez-ofizialak dauzkan "
+"bolumen gehigarri bat detektatu da.</span>\n"
+"\n"
+"Pakete-kudeatzailearekin ireki nahi al duzu?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Informazioa eskuragarri"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Egin ekintza hau orain"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "Informazioa erakusteko egin klik jakinarazpen-ikonoan\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Sistema berrabiarazi behar da"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Sistemaren eguneratzea bukatzeko, berrabiaraz ezazu mesedez\n"
+"\n"
+"Sakatu jakinarazpen-ikonoan xehetazunak ikusteko."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Errorea berrabiaraztean"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Errorea berrabiaraztea eskatzean, eskuz itzali ezazu"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Eguneraketak erakutsi"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Eguneraketa guztiak instalatu"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Eguneraketarik dagoen egiaztatu"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Eguneraketa %i dago eskuragarri"
+msgstr[1] "%i eguneraketa daude eskuragarri"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Jakinarazpenak erakutsi"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Pakete-kudeatzaile dagoeneko abiarazita dago"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Eguneraketa %i dago eskuragarri. Jakinarazte-ikurrean egizu klik eguneraketa "
+"eskuragarria ikusteko."
+msgstr[1] ""
+"%i eguneraketa daude eskuragarri. Jakinarazte-ikurrean egizu klik "
+"eguneraketa eskuragarriak ikusteko."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Software eguneraketak daude eskuragarri"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Eguneratze informazioa dataz kanpo dago. Hau sare arazo edo eskuragarri ez "
+"dagoen errepositorio baten ondorioa izan daiteke. Mesedez, ikono hau sakatu "
+"eskuz eguneratzeko, gero 'Egiaztatu eguneraketak' aukeratu eta "
+"errepositorioren bat huts egiten ari den egiaztatu."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Errore bat gertatu da, mesedez, Pakete-Kudeatzailea exekutatu ezazu eskuin "
+"klik-eko menutik edo apt-get exekutatu ezazu terminal batean errorea zein "
+"izan den jakiteko.\n"
+"\n"
+"Errorearen mezua: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Errore bat gertatu da, mesedez, Pakete-Kudeatzailea exekutatu ezazu eskuin "
+"klik-eko menutik edo apt-get exekutatu ezazu terminal batean errorea zein "
+"izan den jakiteko."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Honek askotan, instalatutako paketeek betetzen ez diren dependentziak "
+"dituztela adierazten du."
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Erroreren bat gertatu da eguneratzerik badagoen egiaztatzean."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Barne-errorea"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- eguneraketen berri eman"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Ezin interfaza abiarazi: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "errore ezezaguna"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "Eguneraketa-jakinarazlea"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Eguneraketa informazioa</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Berrabiarazi egin behar da"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "_Beranduago Berrabiarazi"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Ordenagailua berrabiarazi behar da eguneraketak instalatzen bukatzeko. Zure "
+"lanak gorde itzazu jarraitu aurretik."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Orain Berrabiarazi"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Automatikoki abiarazi akzio lehenetsia"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Automatikoki bistaratu Apport-ek sortutako errore-txostenak"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Ez erakutsi \"Berrabiarazi behar\"-ikur edo elkarrizketarik. Hau "
+"erabilgarria da erabiltzaileek halako ezaugarririk erabiltzea nahi ez duten "
+"sitema-administratzaileentzat."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Berrabiarazte-jakinarazpena ezkutatu"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Hau ezgaituz gero, erabiltzaileak ez du Apport-ek sortutako errore-txostenei "
+"buruzko ohartarazpenik jasoko."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "Eguneraketa normalak zenbat egunetan behin abiarazi automatikoki"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Automatikoki abiaraziko da akzio lehenetsia (eguneraketa-kudeatzailea). "
+"Automatikoki irekiko dira jakinarazpenak, \"berrabiarazi behar\", "
+"\"euskarriak detektatuta\" moduko elkarrizketak."
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Zenbat egunetan behin irekiko den eguneraketa-kudeatzailea eguneraketa "
+"normalentzako. Kontutan izan ezazu berehala abiaraziko dela segurasun-"
+"eguneraketen bila. \"0\" ezartzen baduzu, eguneraketak agertu bezain laster "
+"abiaraziko da."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Sistemako erabiltzaileentzat erreserbatutako UID maximoa"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Eguneraketa-jakinarazlea ez da sistemako erabiltzaileentzat abiaraziko, "
+"honek tarte honetako goi-muga adierazten du."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Automatikoki bilatu eguneraketa berriak"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Eguneratze berriemailea"

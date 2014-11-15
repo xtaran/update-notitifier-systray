@@ -1,0 +1,4 @@
+#!/bin/sh
+
+gksudo -- "$1"
+dbus-send --system / app.apt.dbus.changed boolean:true

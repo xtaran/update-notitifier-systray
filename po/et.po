@@ -1,0 +1,422 @@
+# Estonian translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-10-20 23:45+0000\n"
+"Last-Translator: Laur Mõtus <vprints@gmail.com>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Tundmatu viga: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i paketi jaoks on saadaval uuendus."
+msgstr[1] "%i paketi jaoks on saadaval uuendused."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i uuendus on turvauuendus."
+msgstr[1] "%i uuendust on turvauuendused."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Viga: puhvri avamine (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Viga: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Viga: uuendamise märkimine (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Näidatakse paigaldatavaid/uuendatavaid pakette"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Stdout-is näidatakse inimloetavat väljundit"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Tagastab aja päevades, mille järel turvauuendused paigaldatakse ilma "
+"kasutaja sekkumata (0 tähendab välja lülitatud)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Palun sisesta parool, et pääseda "
+"süsteemi programmide raportite juurde</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Tuvastati vearaport"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Üks rakendus on sinu arvutis kokku jooksnud (äsja või minevikus). "
+"Üksikasjade vaatamiseks klõpsa teavitusikoonil. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Võrguteenuse avastamine on välja lülitatud"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Sinu praegusel võrgul on .local domeen, mis pole soovitatav ega ühildu Avahi "
+"võrguteenuse avastamisega. Teenus on välja lülitatud."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Avastati tarkvarapakettide andmekandja"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Avastati tarkvarapakettide andmekandja."
+"</span>\n"
+"\n"
+"Kas sa tahad seda avada paketihalduriga?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Käivita paketihaldur"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Andmekandjalt avastati versiooniuuendus"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Avastati distributsiooni "
+"tarkvarapakettidega andmekandja.</span>\n"
+"\n"
+"Kas sa tahad proovida sellelt andmekandjalt automaatselt uuendada? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Käivita paketihaldur"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Käivita uuendamine"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Avastati lisade andmekandja"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Avastati lisatarkvaraga andmekandja.</"
+"span>\n"
+"\n"
+"Kas soovid selle sisu vaadata/paigaldada? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Käivita lisade paigaldaja"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "Avastati APTonCD andmekandja"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Avastati mitteametlike "
+"tarkvarapakettidega andmekandja.</span>\n"
+"\n"
+"Kas soovid selle avada paketihalduriga?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Informatsioon saadaval"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Käivita see tegevus kohe"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "Saadaval oleva info kuvamiseks klõpsa teateikoonil.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Vajalik on süsteemi taaskäivitamine"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Uuendamise lõpetamiseks taaskäivita arvuti.\n"
+"\n"
+"Üksikasjade kuvamiseks klõpsa teateikoonil."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Taaskäivitamine nurjus"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Taaskäivitamise nõudmine nurjus, palun taaskäivita käsitsi"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Näita uuendusi"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Paigalda kõik uuendused"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Otsi uuendusi"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Saadaval on %i uuendus"
+msgstr[1] "Saadaval on %i uuendust"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Näita teateid"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Paketihaldur töötab"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Saadaval on %i uuendus. Saadaoleva uuenduse kuvamiseks klõpsa "
+"märguandeikoonil."
+msgstr[1] ""
+"Saadaval on %i uuendust. Saadaolevate uuenduste kuvamiseks klõpsa "
+"märguandeikoonil."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Tarkvara uuendused saadaval"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Uuenduste teave on aegunud. See võib olla põhjustatud probleemidest "
+"võrguühendusega või paketihoidlast, mis pole enam saadaval. Palun uuenda "
+"käsitsi klõpsates sellel ikoonil ja valides \"Otsi uuendusi\" ning "
+"kontrolli, kas mõni loetletud hoidlatest on probleemne."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Esines viga. Et näha, mis on valesti, käivita hüpikmenüüst paketihaldur või "
+"terminalis apt-get.\n"
+"Veateade oli: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Esines viga. Vea nägemiseks käivita hüpikmenüüst paketihaldur või terminalis "
+"apt-get."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Tavaliselt tähendab see, et paigaldatud pakettidel on rahuldamata sõltuvusi"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Uuenduste kontrolli ajal tekkis probleem."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Sisemine viga"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- teavita uuendustest"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Kasutajaliidese lähtestamine nurjus: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "tundmatu viga"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "update-notifier"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Uuenduse info</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Vajalik on süsteemi taaskäivitamine"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Taaskäivita _hiljem"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Uuenduste paigaldamise lõpetamiseks tuleb arvuti taaskäivitada. Palun "
+"salvesta enne jätkamist pooleliolevad tööd."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Taaskäivita kohe"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Vaikimisi tegevuse automaatselt käivitamine"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Vearaporti automaatselt näitamine"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Taaskäivituse vajalikkuse dialoogi ega ikooni ei kuvata. See vajalik "
+"süsteemiadministraatorile, kes tahab sellise võimaluse kasutajatele ära "
+"keelata."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Taaskäivituse märguande peitmine"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Kui see on välja lülitatud, siis ei teavitata kasutajat ootel vearaportitest."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr ""
+"Ajavahemik (päevades), mille tagant teha automaatselt tavalisi uuendusi."
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Vaiketegevust (update-manager käivitamine) alustatakse automaatselt. Kõik "
+"dialoogiaknad (märguanded, taaskäivituse päring, uue andmekandja "
+"tuvastamine) avanevad automaatselt."
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Ajavahemik (päevades), mille tagant teha automaatselt tavalisi uuendusi. "
+"Pane tähele, et turvauuenduste tegemiseks käivitub rakendus koheselt. Kui "
+"määrad väärtuseks \"0\", käivitub rakendus kohe, kui uuendused saabuvad."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Maksimaalne süsteemikasutajatele reserveeritud UID"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Süsteemikasutajate jaoks ei käivitata uuendustest teatajat. See väärtus "
+"määrab süsteemikasutajate ülemise piiri."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Olemasolevate uuenduste automaatne kontroll"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Uuendustest teataja"

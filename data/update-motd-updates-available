@@ -1,0 +1,58 @@
+#!/bin/sh -e
+#
+# helper for update-motd
+
+
+# poor mans force
+if [ "$1" = "--force" ]; then
+    NEED_UPDATE_CHECK=yes
+fi
+
+# check time when we did the last udpate check
+stamp="/var/lib/update-notifier/updates-available"
+if [ -e "$stamp" ]; then
+    stampt=$(stat -c %Y $stamp)
+else
+    stampt=0
+fi
+
+# get list dir
+StateDir="/var/lib/apt/"
+ListDir="lists/"
+eval $(apt-config shell StateDir Dir::State)
+eval $(apt-config shell ListDir Dir::State::Lists)
+
+# check if we have a list file that needs checking
+d="/$StateDir/$ListDir"
+for f in $d/*; do
+    # ignore dirs
+    if [ ! -f $f ]; then
+	continue
+    fi
+    t=$(stat -c %Y $f)
+    if [ $t -gt $stampt ]; then
+	NEED_UPDATE_CHECK=yes
+    fi
+done
+
+# check if sources.list was modified since last check
+SourceList="/etc/apt/sources.list"
+SourceParts="/etc/apt/sources.d"
+eval $(apt-config shell SourceList Dir::Etc::sourcelist/f)
+eval $(apt-config shell SourceParts Dir::Etc::sourceparts/f)
+
+for f in $SourceList $(run-parts --list $SourceParts) $SourceParts/*.list; do
+    if [ -e "$f" ] && [ $(stat -c %Y "$f") -gt $stampt ]; then
+	NEED_UPDATE_CHECK=yes
+    fi
+done
+
+# output something for update-motd
+if [ -n "$NEED_UPDATE_CHECK" ]; then
+    echo "" > $stamp
+    /usr/lib/update-notifier/apt-check --human-readable >> $stamp
+    echo "" >> $stamp
+fi
+
+# output what we have (either cached or newly generated)
+cat $stamp

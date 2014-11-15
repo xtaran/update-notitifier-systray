@@ -1,0 +1,405 @@
+# Hindi translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-04-10 18:42+0000\n"
+"Last-Translator: Manish Kumar <manishku86@yahoo.co.in>\n"
+"Language-Team: Hindi <hi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "अज्ञात त्रुटि: '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i पैकेज अद्यतन हो सकते है."
+msgstr[1] "%i पैकेज अद्यतन हो सकते है."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i अद्यतन एक सुरक्षा अद्यतन है."
+msgstr[1] "%i अद्यतन सभी सुरक्षा अद्यतन है."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "त्रुटि: कैची खोल रहा है (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "त्रुटि: खंडित-गणना > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "त्रुटि: अद्यतन चिह्नित कर रहा है (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "संस्थापित/अद्यतन होने वाले पैकेज को दिखाएं"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr ""
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<विस्तार भार=\"मोटा\" आकार=\"बड़ा\">तंत्र कार्यक्रम की समस्या रपट के लिए कृपया अपना "
+"कूटशब्द दाखिल करे। </विस्तार>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "ध्वंस रिपोर्ट ज्ञात हुआ"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"आपके कंप्यूटर के तंत्र मे किसी  अनुप्रयोग का ध्वंस हुआ है (अभी या पहले)।अतः  अधिक जानकारी के "
+"लिए अधिसूचना पटल पे क्लिक करे. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "संजाल सेवा की खोज अशक्त की गई  है."
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"आपके वर्तमान संजाल मे स्थानीय प्रक्षेत्र है, जो की  स्वीकार्य नही है और अवाही संजाल खोजी "
+"सेवा के अनुकूल नही है । अतः  यह सेवा बाधित कर दी गई है ।"
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "साफ्टवेयर पैकेज आयतन ज्ञात हुआ है"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<विस्तार भार=\"मोटा\" आकार=\"बड़ा\">एक सॉफ्टवेयर पैकेज सहित आयतन ज्ञात हुआ  है.</"
+"विस्तार>"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "पैकेज प्रबंधक आरंभ करें"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "उन्नयन आयतन ज्ञात हुआ है"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<विस्तार भार=\"मोटा\" आकार=\"बड़ा\">एक सॉफ्टवेयर पैकेज सहित वितरक आयतन ज्ञात हुआ  है."
+"</विस्तार> "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "पैकेज प्रबंधक आरंभ करें"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "उन्नयन शुरू करे."
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "सहयुक्ति आयतन ज्ञात हुआ है."
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<विस्तार भार=\"मोटा\" आकार=\"बड़ा\">साफ्टवेयर अनुप्रयोगों सहित एक सहयुक्ति आयतन ज्ञात "
+"हुआ है. </विस्तार> "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "सहयुक्ति संस्थापक शुरू करे"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTonCD आयतन ज्ञात हुआ है"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<विस्तार भार=\"मोटा\" आकार=\"बड़ा\">गैर-कार्यालयी साफ्टवेयर पैकेज सहित एक आयतन ज्ञात "
+"हुआ है. </विस्तार>"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "सूचना उपलब्ध"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "इस क्रिया को अभी चलायें (_R)"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "उपलब्ध सूचना को जानने के लिए संकेतक चिन्ह पे क्लिक करे.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "आपके कंप्यूटर तंत्र को पुनःआरंभ  करने की जरुरत है"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"कृपया अपने सिस्टम के अद्यतन को पूरा करने के लिए कृपया उसे पुन:प्रारंभ करें.\n"
+"विवरण के लिए अधिसूचना पटल पर क्लिक करें."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "पुनःबूट असफल"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "पुनःबूट का आग्रह असफल, कृपया हस्त बंद करे"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "अद्यतन दिखाएँ"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "सभी अद्यतन संस्थापित करें"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "अद्यतन हेतु जाँच"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "%i अद्यतन उपलब्ध है."
+msgstr[1] "%i नवीनीकरण सूचनाएं  उपलब्ध है।"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "अधिसुचनाओ को दिखाए"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "पैकेज प्रबंधक कार्यरत है"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] "%i अद्यतन उपलब्ध है. उपलब्ध अद्यतन देखने हेतु अधिसूचना पटल पर क्लिक करें."
+msgstr[1] "%i अद्यतन उपलब्ध है. उपलब्ध अद्यतन देखने हेतु अधिसूचना पटल पर क्लिक करें."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "सॉफ्टवेयर अद्यतन उपलब्ध है"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"अद्यतन जानकारी पुरानी हो चुकी है. यह संजाल समस्याओं या अब किसी भण्डार के अब उपलब्ध नहीं "
+"होने के कारण भी हो सकता है. कृपया इस पटल पर  क्लिक कर हस्त अद्यतन करें और फिर 'अद्यतन "
+"के लिए जाँचें' का चयन कर कुछ सूचीबद्ध भण्डार विफल के लिए जाँचें."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"एक त्रुटी हुई है. कृपया गलती देखने के लिए दाहिनी क्लिक सूची मे से पैकेज प्रबंधक चलाएं या फ़िर "
+"टर्मिनल मे apt-get चलाये.\n"
+"त्रुटी संदेश इस प्रकार था : '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"एक त्रुटी हुई है. कृपया गलती देखने के लिए दाहिनी क्लिक सूची मे से पैकेज प्रबंधक चलाएं या फ़िर "
+"टर्मिनल में apt-get चलाएं."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"आमतौर पर  इसका मतलब यह कि आपके द्वारा स्थापित पैकेज की ऐसी निर्भरताएं हैं जो पूरी नही "
+"हो रही हैं"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "अद्यतन की जाँच करने में एक समस्या हुई ह."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "आंतरिक त्रुटि"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- अद्यतन के बारे में सूचना"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr ""
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "अद्यतन-सूचक"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<विस्तार भार=\"मोटा\" आकार=\"बड़ा\">सूचना अद्यतन करें </विस्तार>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "पुनः आरंभ की जरुरत"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "बाद मे पुनःआरंभ करे (_L)"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"अद्यतन संस्थापन पूर्ण करने के लिए कंप्यूटर को पुनःआरंभ करने की जरुरत है. आगे बदने के पहले आपने "
+"का सहेजें."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "अभी पुनःआरंभ करें (_R)"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "डिफाल्ट क्रिया को स्वतः प्रवर्तित करें"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "एप्पोर्ट की दुर्घटना रिपोर्ट अपने आप दिखायें"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"पुनःबूट हेतु पटल या संवाद न दिखाएं. तंत्र-प्रशासन के लिए उपयोगी है जो प्रयोक्ता से इस "
+"विशेषता को बचाना चाहता है."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "पुनःबूट अधिसूचना को छिपाएं"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"अगर इसे अशक्त रखा गया तो प्रयोक्ता को एप्पोर्ट की विचाराधीन ध्वंस रिपोर्ट के बारे में "
+"अधिसूचित नहीं किया जाएगा."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "अंतराल (दिनों में) जब स्वतः ही समान्य अद्यतन प्रवर्तित होगा"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"डिफाल्ट कार्य (अद्यतन-प्रबंधक) स्वतः ही आरंभ हो जाएगा. सभी संवाद बक्से जैसे अधिसूचना हुक, "
+"पुनःबूट की जरुरत, मिडिया ज्ञात होना स्वतः ही खुल जाएगा"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"अंतराल (दिनों में) जब स्वतः ही समान्य अद्यतन प्रवर्तित होगा कृपया ध्यान दें कि यह स्वतः ही "
+"सुरक्षा अद्यतन को तुरंत प्रवर्तित करेगा. यदि आप इसे \"0\" नियत करते हैं तो यह भी अद्यतन "
+"उपलब्ध होते ही जल्द से जल्द प्रवर्तित होगा."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "तंत्र प्रयोक्ता हेतु अधिकतम आरक्षित UID"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"तंत्र प्रयोक्ता हेतु अद्यतन-अधिसूचना आरंभ नहीं होगा, यह इस विस्तार के उपरी bound का "
+"ब्यौरा देता है."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "स्वतः अद्यतन उपलब्धता हेतु जाँच"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "अद्यतन अधिसूचक"

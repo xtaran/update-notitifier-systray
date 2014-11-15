@@ -1,0 +1,433 @@
+# Lithuanian translation for update-notifier
+# Copyright (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# Andrius Štikonas <stikonas@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-03-11 10:57+0000\n"
+"Last-Translator: Aurimas Fišeras <Unknown>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Nežinoma klaida: „%s“ (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i paketas gali būti atnaujintas."
+msgstr[1] "%i paketai gali būti atnaujinti."
+msgstr[2] "%i paketų gali būti atnaujinta."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i atnaujinimas yra saugumo atnaujinimas."
+msgstr[1] "%i atnaujinimai yra saugumo atnaujinimai."
+msgstr[2] "%i atnaujinimų yra saugumo atnaujinimai."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "Klaida: Atveriant podėlį (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Klaida: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Klaida: Žymint atnaujinimą (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Parodyti paketus, kurie bus įdiegti/atnaujinti"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Rodyti žmogaus perskaitomą išvedinį standartinėje išvestyje"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Grąžinti laiką dienomis kada saugumo atnaujinimai įdiegiami be priežiūros (0 "
+"- išjungta)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Kad pasiektumėte sistemos programų "
+"problemų ataskaitas, prašome įvesti savo slaptažodį</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Aptiktas lūžio pranešimas"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Jūsų sistemoje užstrigo programa (dabar arba anksčiau). Kad pamatytumėte "
+"detalią informaciją, spustelėkite pranešimo piktogramą. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Išjungtas tinklo paslaugų atradimas"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Jūsų dabartinis tinklas turi .local sritį, kuri nėra rekomenduojama ir yra "
+"nesuderinama su Avahi tinklo paslaugų atradimu. Paslauga išjungta."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Aptiktas programinės įrangos paketų tomas"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Atrasta programinės įrangos paketų "
+"talpykla.</span>\n"
+"\n"
+"Ar norėtumėte atverti ją su paketų tvarkykle?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Paleisti paketų tvarkyklę"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Rasta atnaujinimų talpykla"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Rasta operacinės sistemos talpykla su "
+"programinės įrangos paketais.</span>\n"
+"\n"
+"Ar norėtumėte naudojant ją atnaujinti automatiškai? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Paleisti paketų tvarkyklę"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Pradėti atnaujinimą"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Rasta papildymų talpykla"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Rasta papildymų talpykla su programine "
+"įranga.</span>\n"
+"\n"
+"Ar norėtumėte peržiūrėti/įdiegti jos turinį? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Pradėti papildymų įdiegimą"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "Aptikta APTonCD talpykla"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Rasta talpykla su neoficialia "
+"programine įranga.</span>\n"
+"\n"
+"Ar norėtumėte atverti ją su paketų tvarkykle?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Prieinama informacija"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Vykdyti šį veiksmą"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr ""
+"Norėdami peržiūrėti prieinamą informaciją, spustelėkite pranešimo "
+"piktogramą\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Reikia perkrauti kompiuterį"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Kad pabaigtumėte savo sistemos atnaujinimą, prašome ją perkrauti.\n"
+"\n"
+"Spauskite ant pranešimo ženkliuko, kad pamatytumėte daugiau detalių."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Nepavyko įkelti OS iš naujo"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Nepavyko paprašyti įkelti OS iš naujo, prašome stabdyti rankiniu būdu"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Parodyti atnaujinimus"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Įdiegti visus atnaujinimus"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Ieškoti atnaujinimų"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Rastas %i atnaujinimas"
+msgstr[1] "Rasti %i atnaujinimai"
+msgstr[2] "Rasta %i atnaujinimų"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Rodyti pranešimus"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Paketų tvarkyklė aktyvi"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Yra %i atnaujinimas. Spauskite ant pranešimo ženkliuko, kad pamatytumėte "
+"galimus atnaujinimus."
+msgstr[1] ""
+"Yra %i atnaujinimai. Spauskite ant pranešimo ženkliuko, kad pamatytumėte "
+"galimus atnaujinimus."
+msgstr[2] ""
+"Yra %i atnaujinimų. Spauskite ant pranešimo ženkliuko, kad pamatytumėte "
+"galimus atnaujinimus."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Yra programinės įrangos atnaujinimų"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Atnaujinimų informacija yra pasenusi. Tai gali būti sukelta tinklo problemų "
+"ar saugyklos, kuri daugiau neprieinama. Atnaujinkite rankiniu būdu "
+"paspausdami šią piktogramą ir pasirinkdami 'Ieškoti atnaujinimų', tada "
+"patikrinkite ar kuri nors iš pateiktų saugyklų sutrikusi."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Įvyko klaida, prašom paleisti Paketų tvarkyklę iš kontekstinio meniu arba "
+"apt-get terminale, kad pamatytumėte, kas blogai.\n"
+"Klaidos pranešimas: „%s“"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Įvyko klaida, prašom paleisti Paketų tvarkyklę iš konktekstinio meniu arba "
+"apt-get terminale, kad pamatytumėte, kas blogai."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Tikriausiai tai reiškia, jog nėra jūsų įdiegtiems paketams reikalingų paketų"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Ieškant atnaujinimų įvyko klaida."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Vidinė klaida"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- pranešti apie atnaujinimus"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Nepavyko inicijuoti NS: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "nežinoma klaida"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "update-notifier"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Atnaujinimų informacija</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Reikia perkrauti"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Perkrauti _vėliau"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Kompiuterio OS reikia įkelti iš naujo atnaujinimų diegimui baigti. "
+"Išsaugokite savo darbus prieš tęsdami."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Perkrauti dabar"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Automatiškai paleisti numatytą veiksmą"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Parodyti apport lužio ataskaitas automatiškai"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Nerodyti „reikia įkelti OS iš naujo“ piktogramos ar dialogo lango. Tai "
+"naudinga sistemos administratoriams, kurie nori neleisti naudotis šia "
+"funkcija naudotojams."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Nerodyti perkrovimo pranešimą"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Kai jos išjungtos, naudotojas nebus informuojamas apie neapdorotas apport "
+"lūžio ataskaitas."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr ""
+"Intervalas (dienomis) kada automatiškai paleisti paprastiems atnaujinimams"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Numatytas veiksmas yra, kad (update-manager) bus paleistas automatiškai. "
+"Visi dialogo langai - pranešimai, reikia įkelti OS iš naujo, aptikta "
+"laikmena - bus atverti automatiškai"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Intervalas (dienomis) kada automatiškai paleisti update-manager paprastiems "
+"atnaujinimams. Pastebėkite, kad tai iš karto automatiškai paleis saugumo "
+"atnaujinimams. Jei nustatysite į „0“, automatiškai paleis iš karto, kai tik "
+"atnaujinimai taps prieinami."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Didžiausias UID rezervuotas sistemos naudotojams"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"Update-notifier nebus paleistas sisteminiams naudotojams, čia nurodoma "
+"viršutinė rėžio riba."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Ieškoti prieinamų atnaujinimų automatiškai"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Atnaujinimų pranešiklis"

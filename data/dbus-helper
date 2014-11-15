@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if test -n "$2"; then
+    gksudo --message "<b>$2</b>" -- "$1"
+else
+    gksudo -- "$1"
+fi
+dbus-send --system / app.apt.dbus.changed boolean:true

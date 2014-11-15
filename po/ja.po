@@ -1,0 +1,414 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ikuya Awashiro <ikuya@fruitsbasket.info>, 2005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-04-17 10:15+0000\n"
+"Last-Translator: Ikuya Awashiro <ikuya@fruitsbasket.info>\n"
+"Language-Team: Ubuntu-ja <ubuntu-ja-users@freeml.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "不明なエラー： '%s' (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i 個のパッケージがアップデート可能です。"
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i 個のアップデートはセキュリティアップデートです。"
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "エラー：キャッシュ(%s)展開中"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "エラー：BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "エラー：アップグレードの記録中(%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "インストール/アップグレードされるパッケージを表示"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "標準出力に人が読める形式で表示"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"不在時にセキュリティ・アップグレードがインストールされた時刻を返します（0は無"
+"効を表す）"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">プログラムの問題点の報告にアクセスする"
+"ためのパスワードを入力してください</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "クラッシュ報告が検出されました"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"アプリケーションはシステム上でクラッシュしました(今もしくはその前に)。詳細を"
+"表示するには、通知アイコンをクリックしてください。 "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "ネットワークサービスの検知は無効です"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"現在のネットワークは.localドメインに含まれており、推奨されません。また、Avahi"
+"ネットワークサービス検知と互換性がありません。サービスを無効にしました。"
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "ソフトウェアパッケージ集が検出されました"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">ソフトウェアパッケージ集を検出しまし"
+"た。</span> \n"
+"\n"
+"パッケージマネージャで開きますか？"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "パッケージマネージャを起動する"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "アップグレードボリュームが検出されました"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">ソフトウェアパッケージ集を含むディスト"
+"リビューションボリュームを検出しました。</span> \n"
+"\n"
+"自動でアップグレードを行いますか？ "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "パッケージマネージャを開始"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "アップグレードを実行"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "追加ボリュームを認識しました"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">アプリケーションソフトウェアが含まれた"
+"追加ボリュームが見つかりました。</span>\n"
+"\n"
+"ボリュームの中身を確認したり、インストールしたりしますか？ "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "アドオンインストーラを開始します"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTonCD ボリュームが見つかりました"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">非公式ソフトウェアパッケージが含まれた"
+"ボリュームが見つかりました。</span>\n"
+"\n"
+"パッケージマネージャを用いて開きますか？"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "情報があります"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "このアクションをすぐに実行する(_R)"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "通知アイコンをクリックして情報を表示してください。\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "システムの再起動が必要です"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"更新を完了するために、システムを再起動する必要があります。\n"
+"\n"
+"詳しくは通知アイコンをクリックしてください。"
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "再起動に失敗しました"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "再起動のリクエストに失敗しました．手動でシャットダウンしてください"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "アップデートの表示"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "すべてのアップデートをインストール"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "アップデートの表示"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "%i 個のアップデートがあります"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "通知の表示"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "パッケージマネージャが起動中です"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"現在 %i 個のアップグレードが利用できます。アイコンをクリックすると利用できる"
+"アップグレードが表示されます。"
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "新しいアップデートがあります"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"ネットワークの問題か、もはや利用できないリポジトリのために、更新情報が古く"
+"なっています。このアイコンをクリックし、その後「再チェック」ボタンを押して、"
+"更新情報を再度取得してください。また、その際に表示されるリポジトリの接続状況"
+"も確認してください。"
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"エラーが発生しました。メニューを右クリックするか、端末でapt-getを実行してパッ"
+"ケージマネージャを起動し、何が起こったのか確認してください。\n"
+"エラーメッセージは次の通りです: '%s'"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"エラーが発生しました。メニューを右クリックするか、端末でapt-getを実行してパッ"
+"ケージマネージャを起動し、何が起こったのか確認してください。"
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr "これはインストールしたパッケージの依存性が満たせない状態と推測できます"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "アップデートをチェック中に問題が発生しました。"
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "内部エラー"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- アップデートについて知らせる"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "UIの初期化に失敗しました： %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "原因不明のエラー"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "update-notifier"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">アップデート情報</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "再起動が必要です。"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "あとで再起動(_L)"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"アップデートのインストールを完了するためにはコンピュータの再起動が必要です。"
+"インストールを続行する前に現在行っている作業の保存をして下さい。"
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "すぐに再起動(_R)"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "標準の動作を自動的に起動する"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "自動的に apport クラッシュレポートを表示する"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"再起動の要求をアイコンやダイアログで表示しません。これは管理者がユーザに対し"
+"てこの機能を見せたくない場合に役に立ちます。"
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "再起動の通知を隠す"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr "これを無効にすると、apport クラッシュレポートの延期の通知をしません。"
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr "通常のアップデートのための自動起動の間隔(日数)"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"デフォルトのアクション(アップデートマネージャ)が自動的に開始されます。通知"
+"サービス、再起動の要求、メディアの検出などのダイアログボックスは自動的に開か"
+"れます。"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"通常の更新のために、アップデートマネージャを自動起動する間隔(日数)です。セ"
+"キュリティアップデートに対しては、即座に自動起動することに注意して下さい。も"
+"し、 \"0\" に設定すると、アップデートが利用可能になると、すぐに起動するように"
+"なります。"
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "システムユーザー用の最大UID"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"アップデート通知機能 (update-notifier) はシステムユーザ向けには起動されませ"
+"ん、この設定ではその上限を指定します。"
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "利用可能なアップデートを自動的にチェックする"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "アップデート通知"

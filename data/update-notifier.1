@@ -1,0 +1,49 @@
+.TH UPDATE-NOTIFIER "1" "November 2010" "0.99.3" "Update Notifications"
+.SH NAME
+update\-notifier \- daemon which notifies about package updates.
+.SH SYNOPSIS
+.B update\-notifier
+[\fIOPTIONS...\fR]
+.SH DESCRIPTION
+\fBupdate\-notifier\fR
+puts an icon in the user's notification area when package updates are
+available.
+.SH OPTIONS
+.TP
+.BR \-h ", " \-\-help\fR
+Shows help options.
+.TP
+.BR \-\-debug\-hooks\fR
+Enable hooks debugging.
+.TP
+.BR \-\-debug\-updates\fR
+Enable updates/autolaunch debugging.
+.TP
+.BR \-\-debug\-inotify\fR
+Enable inotify debugging.
+.TP
+.BR \-\-debug\-firmware\fR
+Enable firmware debugging.
+.TP
+.BR \-\-force\fR
+Force start even if the user is not in the admin group.
+.TP
+.BR \-\-force\-use\-gksu\fR
+Force running all commands (update-manager, synaptic) with gksu.
+.TP
+.BR \-\-startup\-delay\fR
+Delay startup by given amount of seconds.
+.TP
+.BR \-\-display =\fIDISPLAY\fR
+X display to use.
+.PP
+In addition, the usual GTK+ and GNOME command line options apply. See
+the output of \-\-help for details.
+.SH SEE ALSO
+.PP
+\fBupdate-manager\fR(8),
+\fBsynaptic\fR(8)
+.SH AUTHOR
+.PP
+This manual page was written by Vincent Cheng <Vincentc1208@gmail.com>,
+for the Debian project (and may be used by others).

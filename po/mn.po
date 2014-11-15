@@ -1,0 +1,415 @@
+# Mongolian translation for update-notifier
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the update-notifier package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2009-02-28 06:52+0000\n"
+"Last-Translator: Лхамцэрэнгийн Одонбаатар <odko213@yahoo.com>\n"
+"Language-Team: Mongolian <mn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr ""
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "%i багцыг шинэчлэж болно"
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i гэдэг шинэчлэл бол аюулгүйн шинэчлэл"
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "түр хадгалах зайг нээхэд алдаа гарлаа (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "Алдаа: Тасалдсан тоолуур > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "Алдаа: Шинэчлэлийг тэмдэглэж байна (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Суулгах / шинэчлэх багцыг үзүүлэх"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "stdout дээрх уншигдах гаралтыг үзүүлэх"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Аюулгүйн сайжруулалтууд автоматаар суусанаас хойших хугацааг өдрөөр буцааж "
+"харуулах (0 бол сайжруултыг хаасан)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Системийн програмтай холбоотой "
+"асуудлын тайланд холбогдох бол нууц үгээ оруулна уу</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "Ослын тайлан үзүүлсэн"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Одоо эсвэл өмнөх хугацаанд таны систем дээрх нэг програм гэмтсэн байна. "
+"Мэдээллэх самбар дээрх дүрсийг товшиж дэлгэрэнгүй үзнэ үү. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "Сүлжээний үйлчилгээг автоматаар танихийг идвэхгүй болгосон."
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"Таны сүлжээ .lokal хүрээнд байна. Энэ нь сүлжээний үйлчилгээг автоматаар "
+"танихад нийлэмжгүйн дээр таньд санал болгоогүй болно. Иймээс энэ үйлчилгээг "
+"идвэхгүй болголоо."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "Програмын багцтай мэдээлэл тээгч илэрлээ"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Програмын багцтай мэдээлэл тээгч  "
+"илэрлээ.</span>\n"
+"\n"
+"Та багц зохион байгуулагчаар нээж багцуудыг суулгах уу?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Багц зохион байгуулагчийг эхлүүлэх"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "Системийг шинэчлэх мэдээлэл тээгч илэрлээ"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Таны тархацийн програмын багцтай "
+"мэдээлэл тээгч илэрлээ</span>\n"
+"\n"
+"Үүгээр та өөрийн системээ шинэчлэх үү? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Багц зохион байгуулагчийг эхлүүлэх"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Шинэчлэлийг эхлэх"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "Өргөжүүлэгчтэй мэдээлэл тээгч илэрлээ"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Програмтай өрөгжүүлэгч мэдээлэл тээгч "
+"илэрлээ.</span>\n"
+"\n"
+"Та агуулгыг үзэх болон суулгах уу? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Өргөжүүлэгчийг суулгаж эхлэх"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "APTonCD мэдээлэл тээгч илэрлээ"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Албан ёсоор дэмждэггүй програмын багч "
+"илэрлээ.</span>\n"
+"\n"
+"Та үүнийг багц зохион байгуулагчааар нээх үү?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Мэдээлэл авах боломжтой"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "Энэ _үйлдлийг одоо гүйцэтгэ"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr "Зааврыг үзэхийн тулд мэдээлэх цонх дээрх дүрсийг товш.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Системийг дахин эхлүүлэх хэрэгтэй"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Сайжруулалтыг дуусгахын тулд та системээ дахин эхлүүлнэ үү.\n"
+"\n"
+"Дэлгэрэнгүй мэдээллийг авахын тулд мэдээлэх цонх дээрх дүрсийг товш."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Дахин ачаалахад алдаа гарлаа"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr "Дахин ачаалах асуултанд  алдаа гарлаа. Та гар аргаар унтраан уу."
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Сайжруулалтуудыг харах"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Бүх сайжруулалтуудыг суулгах"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Сайжруулалтаар шалгах"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "%i ширхэг сайжруулалт хийх боломжтой."
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Мэдээлэгч харуулах"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Багц зохион байгуулагч одоо ажиллаж байна"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"%i ширхэг сайжруулалт хийх боломжтой. Та мэдээлэгч дүрс товшиж боломжтой "
+"сайжруулалтуудыг үзнэ үү."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Програмын сайжруулалтууд хийх боломжтой"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"Шинэчлэлийн мэдээллэх хугацаа хуучирсан. Сүлжээний асуудалаас эсвэл ажилахаа "
+"больсон багцын эх үүсвэрээс болсон байж магад. Та 'сайжруулалтуудыг шалгах ' "
+"дүрсэн дээр товшиж гар аргаар сайжруулна уу. Эцэст нь та зарим багцийн эх "
+"үүсвэр алдаатай байж болохыг шалгана уу."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"Алдаа гарлаа. Та хулганы баруун товчоор юм уу терминал дээр apt-get "
+"ажилуулж, алдаа хаана байгааг харна уу.\n"
+"Алдаа: »%s«"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"Алдаа гарсан, ажиллаж байгаа Багц зохион байгуулагчийн цэс дээр баруун "
+"товчоо да эсвэл терминал дээр apt-get гэж бичиж юу нь буруу болсныг хар."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr "Энэ нь ихэвчлэн тэр суусан багцын арга ухаанаас хараат байна."
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "Шинэчлэл шалгаж байх явцах асуудал гарсан"
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "Дотоод алдаа"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- интормын тухай шинэчлэл"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "UI-ийн үүсгэхэд алдаа гарсан: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "Мэдэхгүй алдаа"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "Шинэчлэгч-мэдээлэгч"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Шинэчлэлийн мэдээлэл</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Дахин эхлүүлэх хэрэгтэй"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "_Дараа дахин эхлүүлэх"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Шинэчлэлийг суулгах дуусахад компьютераа дахин ачааллах хэрэгтэй. "
+"Үргэлжлүүлэхийн өмнө ажлаа хадгалана уу"
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Одоо дахин эхлүүл"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Автоматаар стандарт үйлдэл эхлэх"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Apport ойслын тайлан автоматаар үзүүлэх"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"Дахин ачааллахыг шаардсан харилцах цонх буюу айконг үзүүлэхгүй. This is "
+"useful for sysadmin who want to prevent this feature from users."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Дахиад ачааллах мэдээллийг нуух"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Хэрвээ энэ идэвхигүй байвал, Хэрэглэгчид хүлээгдэж байгаа олслын тайлангийн "
+"тухай мэдэгдэхгүй."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr ""
+"Interval (Өдрүүд дэх) завсар байгаа хэвхий шинэчлэл автоматаар эхлүүлэх"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"Стандарт үйлдэл (Шинэчлэл-зохион байгуулагч) автоматаар эхлэнэ. Бүх харилцах "
+"цонх мэдээлэгч цагираг дэгээ, дахин эхлүүхэх хэрэгтэй, медиа автоматаар "
+"нээгдэхээр илэрсэн"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Хэвийн шинэчлэл дэх шинэчлэл зохион байгуулагчыг автоматаар ачааллах үеийн "
+"хугацаа (өдөрт). Энэ нь яаралтай аюулгүй байдлын шинэчлэлийг автоматаар "
+"ажиллуулах болно. Үүний тэмдэглэнэ үү. Хэрвээ 0-г оноовол шинэчлэл идэвхитэй "
+"болоход удалгүй бас ажиллах болно."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "Хамгийн их UID тэр бол системийн хэрэглэгч хүлээн авсан"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr "Шинэчлэл мэдээлэлгч"
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Идэвхитэй шинэчлэлийг автоматаар шалгах"
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Шинэчлэл мэдээлэгч"

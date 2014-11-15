@@ -1,0 +1,433 @@
+# Catalan translation for update-notifier
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-notifier package.
+# Jordi Irazuzta <irazuzta@gmail.com>, 2006, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-18 17:37+0200\n"
+"PO-Revision-Date: 2010-02-07 22:46+0000\n"
+"Last-Translator: David Planella <Unknown>\n"
+"Language-Team: Catalan <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-04-18 10:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/apt_check.py:27
+#, python-format
+msgid "Unknown Error: '%s' (%s)"
+msgstr "Error desconegut: «%s» (%s)"
+
+#: ../data/apt_check.py:66
+#, python-format
+msgid "%i package can be updated."
+msgid_plural "%i packages can be updated."
+msgstr[0] "Podeu actualitzar %i paquet."
+msgstr[1] "Podeu actualitzar %i paquets."
+
+#: ../data/apt_check.py:71
+#, python-format
+msgid "%i update is a security update."
+msgid_plural "%i updates are security updates."
+msgstr[0] "%i actualització és una actualització de seguretat."
+msgstr[1] "%i actualitzacions són actualitzacions de seguretat."
+
+#: ../data/apt_check.py:97
+#, python-format
+msgid "Error: Opening the cache (%s)"
+msgstr "S'ha produït un error en obrir la memòria cau (%s)"
+
+#: ../data/apt_check.py:111
+msgid "Error: BrokenCount > 0"
+msgstr "S'ha produït un error: BrokenCount > 0"
+
+#: ../data/apt_check.py:118
+#, python-format
+msgid "Error: Marking the upgrade (%s)"
+msgstr "S'ha produït un error en marcar l'actualització (%s)"
+
+#: ../data/apt_check.py:182
+msgid "Show the packages that are going to be installed/upgraded"
+msgstr "Mostra els paquets que s'instal·laran o s'actualitzaran"
+
+#: ../data/apt_check.py:187
+msgid "Show human readable output on stdout"
+msgstr "Mostra una sortida llegible per a la sortida estàndard"
+
+#: ../data/apt_check.py:191
+msgid ""
+"Return the time in days when security updates are installed unattended (0 "
+"means disabled)"
+msgstr ""
+"Retorna el nombre de dies passats els quals les actualitzacions de seguretat "
+"són instal·lades de forma automàtica (0 significa mai)"
+
+#: ../src/crash.c:40
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Please enter your password to access "
+"problem reports of system programs</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Introduïu la contrasenya per a accedir "
+"als informes de problemes dels programes del sistema</span>"
+
+#: ../src/crash.c:66 ../src/crash.c:135
+msgid "Crash report detected"
+msgstr "S'ha detectat un informe de fallada de programari"
+
+#: ../src/crash.c:67
+msgid ""
+"An application has crashed on your system (now or in the past). Click on the "
+"notification icon to display details. "
+msgstr ""
+"Una aplicació del sistema ha fallat (ara o anteriorment). Feu clic a la "
+"icona de notificació per a visualitzar-ne els detalls. "
+
+#. Create and show the notification
+#: ../src/avahi.c:15
+msgid "Network service discovery disabled"
+msgstr "El servei de descoberta de serveis a la xarxa està inhabilitat"
+
+#: ../src/avahi.c:16
+msgid ""
+"Your current network has a .local domain, which is not recommended and "
+"incompatible with the Avahi network service discovery. The service has been "
+"disabled."
+msgstr ""
+"La vostra xarxa actual té un domini .local, que no és recomanat i és "
+"incompatible amb la descoberta de serveis a la xarxa Avahi. S'ha inhabilitat "
+"el servei."
+
+#: ../src/gdu.c:53
+msgid "Software Packages Volume Detected"
+msgstr "S'ha detectat un volum de paquets de programari"
+
+#: ../src/gdu.c:54
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
+"been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">S'ha detectat un volum amb paquets de "
+"programari.</span>\n"
+"\n"
+"Els voleu obrir amb el gestor de paquets?"
+
+#: ../src/gdu.c:62
+msgid "Start Package Manager"
+msgstr "Inicia el gestor de paquets"
+
+#: ../src/gdu.c:68
+msgid "Upgrade volume detected"
+msgstr "S'ha detectat un volum amb actualitzacions"
+
+#: ../src/gdu.c:69
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to try to upgrade from it automatically? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">S'ha detectat un volum de distribució "
+"amb paquets de programari.</span>\n"
+"\n"
+"Voleu intentar actualitzar el sistema automàticament a partir d'aquest? "
+
+#: ../src/gdu.c:76 ../src/gdu.c:92 ../src/gdu.c:110 ../src/update.c:36
+msgid "Start package manager"
+msgstr "Inicia el gestor de paquets"
+
+#: ../src/gdu.c:78
+msgid "Run upgrade"
+msgstr "Executa l'actualització"
+
+#: ../src/gdu.c:84
+msgid "Addon volume detected"
+msgstr "S'ha detectat un volum de complements"
+
+#: ../src/gdu.c:85
+msgid ""
+"<span weight=\"bold\" size=\"larger\">An addon volume with software "
+"applications has been detected.</span>\n"
+"\n"
+"Would you like to view/install the content? "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">S'ha detectat un volum de complements "
+"amb aplicacions de programari.</span>\n"
+"\n"
+"Voleu visualitzar o instal·lar el contingut? "
+
+#: ../src/gdu.c:94
+msgid "Start addon installer"
+msgstr "Inicia l'instal·lador de complements"
+
+#: ../src/gdu.c:101
+msgid "APTonCD volume detected"
+msgstr "S'ha detectat un volum APTonCD"
+
+#: ../src/gdu.c:102
+msgid ""
+"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
+"packages has been detected.</span>\n"
+"\n"
+"Would you like to open it with the package manager?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">S'ha detectat un volum amb paquets de "
+"programari no oficial.</span>\n"
+"\n"
+"Voleu obrir-lo amb el gestor de paquets?"
+
+#: ../src/hooks.c:47 ../src/hooks.c:425 ../src/hooks.c:558
+msgid "Information available"
+msgstr "Informació disponible"
+
+#: ../src/hooks.c:353 ../ui/hooks-dialog.ui.h:2
+msgid "_Run this action now"
+msgstr "_Executa ara aquesta acció"
+
+#: ../src/hooks.c:559
+msgid "Click on the notification icon to show the available information.\n"
+msgstr ""
+"Feu clic a la icona de notificació per visualitzar la informació "
+"disponible.\n"
+
+#: ../src/reboot.c:35 ../src/reboot.c:230
+msgid "System restart required"
+msgstr "Cal que reinicieu l'ordinador"
+
+#: ../src/reboot.c:36
+msgid ""
+"To complete the update of your system, please restart it.\n"
+"\n"
+"Click on the notification icon for details."
+msgstr ""
+"Heu de tornar a iniciar el sistema per a completar l'actualització.\n"
+"\n"
+"Feu clic a la icona de notificació per a obtenir més detalls."
+
+#: ../src/reboot.c:116
+msgid "Reboot failed"
+msgstr "Ha fallat el reinici"
+
+#: ../src/reboot.c:117
+msgid "Failed to request reboot, please shutdown manually"
+msgstr ""
+"Ha fallat la soŀlicitud de reinici. Si us plau, atureu l'ordinador manualment"
+
+#: ../src/update.c:25
+msgid "Show updates"
+msgstr "Mostra les actualitzacions"
+
+#: ../src/update.c:30
+msgid "Install all updates"
+msgstr "Instal·la les actualitzacions"
+
+#: ../src/update.c:34
+msgid "Check for updates"
+msgstr "Comprova si hi ha actualitzacions"
+
+#: ../src/update.c:93
+#, c-format
+msgid "There is %i update available"
+msgid_plural "There are %i updates available"
+msgstr[0] "Disposeu de %i actualització"
+msgstr[1] "Disposeu de %i actualitzacions"
+
+#: ../src/update.c:163
+msgid "Show notifications"
+msgstr "Mostra les notificacions"
+
+#. and update the tooltip
+#: ../src/update.c:219
+msgid "A package manager is working"
+msgstr "Ja s'està executant un gestor de paquets"
+
+#: ../src/update.c:257
+#, c-format
+msgid ""
+"There is %i update available. Click on the notification icon to show the "
+"available update."
+msgid_plural ""
+"There are %i updates available. Click on the notification icon to show the "
+"available updates."
+msgstr[0] ""
+"Disposeu de %i actualització. Feu clic a la icona de notificació per mostrar-"
+"la."
+msgstr[1] ""
+"Disposeu de %i actualitzacions. Feu clic a la icona de notificació per "
+"mostrar-les."
+
+#: ../src/update.c:268
+msgid "Software updates available"
+msgstr "Disposeu d'actualitzacions de programari"
+
+#: ../src/update.c:310
+msgid ""
+"The update information is outdated. This may be caused by network problems "
+"or by a repository that is no longer available. Please update manually by "
+"clicking on this icon and then selecting 'Check for updates' and check if "
+"some of the listed repositories fail."
+msgstr ""
+"La informació d'actualització és obsoleta. Això pot ser degut a algun "
+"problema de la xarxa o bé al fet que un dipòsit ja no sigui disponible. "
+"Caldrà que dugueu a terme l'actualització de forma manual fent clic a "
+"aquesta icona i seleccionant «Comprova si hi ha actualitzacions». Llavors "
+"podreu veure si algun dels dipòsits de la llista falla."
+
+#: ../src/update.c:576
+#, c-format
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong.\n"
+"The error message was: '%s'"
+msgstr ""
+"S'ha produït un error. Executeu el gestor de paquets des del menú que "
+"apareix fent clic al botó secundari o amb l'apt-get des d'un terminal per a "
+"veure quin és el problema.\n"
+"El missatge d'error fou: «%s»"
+
+#: ../src/update.c:583
+msgid ""
+"An error occurred, please run Package Manager from the right-click menu or "
+"apt-get in a terminal to see what is wrong."
+msgstr ""
+"S'ha produït un error. Executeu el gestor de paquets des del menú que "
+"apareix fent clic al botó secundari o amb l'apt-get des d'un terminal per a "
+"veure quin és el problema."
+
+#: ../src/update.c:587
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr ""
+"Normalment això significa que els paquets instal·lats tenen dependències "
+"desconegudes"
+
+#: ../src/update.c:600
+msgid "A problem occurred when checking for the updates."
+msgstr "S'ha produït un error en comprovar les actualitzacions."
+
+#: ../src/update-notifier.c:333
+msgid "Internal error"
+msgstr "S'ha produït un error intern"
+
+#: ../src/update-notifier.c:498
+msgid "- inform about updates"
+msgstr "- informa sobre les actualitzacions"
+
+#: ../src/update-notifier.c:500
+#, c-format
+msgid "Failed to init the UI: %s\n"
+msgstr "Ha fallat la inicialització de la interfície d'usuari: %s\n"
+
+#: ../src/update-notifier.c:501
+msgid "unknown error"
+msgstr "error desconegut"
+
+#: ../src/update-notifier.c:520
+msgid "update-notifier"
+msgstr "indicador d'actualitzacions"
+
+#: ../ui/hooks-dialog.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Informació de l'actualització</span>"
+
+#: ../ui/reboot-dialog.ui.h:1
+msgid "Restart Required"
+msgstr "Cal que reinicieu"
+
+#: ../ui/reboot-dialog.ui.h:2
+msgid "Restart _Later"
+msgstr "Reinicia _després"
+
+#: ../ui/reboot-dialog.ui.h:3
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Cal reiniciar l'ordinador per a finalitzar la instaŀlació de les "
+"actualitzacions. Deseu la vostra feina abans de continuar."
+
+#: ../ui/reboot-dialog.ui.h:4
+msgid "_Restart Now"
+msgstr "_Reinicia ara"
+
+#: ../data/update-notifier.schemas.in.h:1
+msgid "Automatically launch the default action"
+msgstr "Executa automàticament l'acció predeterminada"
+
+#: ../data/update-notifier.schemas.in.h:2
+msgid "Display apport crash reports automatically"
+msgstr "Mostra els informes de fallades de l'Apport automàticament"
+
+#: ../data/update-notifier.schemas.in.h:3
+msgid ""
+"Do not display a reboot required icon or dialog. This is useful for sysadmin "
+"who want to prevent this feature from users."
+msgstr ""
+"No mostris un diàleg o icona sol·licitant arrencar de nou. Això és útil per "
+"a administradors de sistemes que volen amagar aquesta funcionalitat dels "
+"usuaris."
+
+#: ../data/update-notifier.schemas.in.h:4
+msgid "Hide the reboot notification"
+msgstr "Amaga la notificació d'arrencar de nou"
+
+#: ../data/update-notifier.schemas.in.h:5
+msgid ""
+"If this is disabled, the user will not be notified about pending apport "
+"crash reports."
+msgstr ""
+"Si teniu això desactivat, l'usuari no serà notificat dels informes de "
+"fallades de l'Apport pendents."
+
+#: ../data/update-notifier.schemas.in.h:6
+msgid "Interval (in days) when to auto launch for normal updates"
+msgstr ""
+"Interval (en dies) per executar automàticament les actualitzacions normals"
+
+#: ../data/update-notifier.schemas.in.h:7
+msgid ""
+"The default action (update-manager) will be started automatically. All "
+"dialog boxes like notification hooks, reboot required, media detected will "
+"open automatically"
+msgstr ""
+"L'acció predeterminada (gestor d'actualitzacions) s'executarà "
+"automàticament. Tots els quadres de diàleg com ara les notificacions, les "
+"sol·licituds de reinici o la detecció de suports s'obriran automàticament"
+
+#: ../data/update-notifier.schemas.in.h:8
+msgid ""
+"The interval (in days) when auto launching update-manager for normal "
+"updates. Please note that it will auto launch for security updates "
+"immediately. If you set it to \"0\" it will also launch as soon as updates "
+"become available."
+msgstr ""
+"Interval (en dies) per a executar automàticament el gestor d'actualitzacions "
+"per a les actualitzacions normals. Per a les actualitzacions de seguretat "
+"s'executarà tan aviat aquestes estiguin disponibles. Si l'establiu a «0» "
+"s'executarà tan aviat com les actualitzacions estiguin disponibles."
+
+#: ../data/update-notifier.schemas.in.h:9
+msgid "The maximum UID that is reserved for system users"
+msgstr "L'UID màxim que està reservat per als usuaris de sistema"
+
+#: ../data/update-notifier.schemas.in.h:10
+msgid ""
+"Update-notifier will not be started for system users, this specifies the "
+"upper bound of this range."
+msgstr ""
+"El gestor d'actualitzacions no s'executarà per a usuaris propis del sistema, "
+"això especifica el llindar superior d'aquest rang."
+
+#: ../data/update-notifier.desktop.in.h:1
+msgid "Check for available updates automatically"
+msgstr "Comprova si hi ha actualizacions disponibles automàticament."
+
+#: ../data/update-notifier.desktop.in.h:2
+msgid "Update Notifier"
+msgstr "Gestor d'actualitzacions"
