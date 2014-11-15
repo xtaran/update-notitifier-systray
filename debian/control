@@ -4,26 +4,28 @@ Priority: optional
 Maintainer: Axel Beckert <abe@debian.org>
 Build-Depends: debhelper (>= 9~),
                dh-autoreconf,
-               libgtk2.0-dev (>= 2.10.0),
                intltool,
+               libgtk2.0-dev (>= 2.10.0),
                libnotify-dev (>= 0.7),
                libx11-dev
 Standards-Version: 3.9.2
-#Vcs-Bzr: http://bzr.debian.org/collab-maint/update-notifier/debian-sid
-#Vcs-Browser: http://bzr.debian.org/loggerhead/collab-maint/update-notifier/debian-sid
 
 Package: update-notifier-systray
 Architecture: any
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-         gettext-base,
+Depends: gettext-base,
          lsb-release,
+         notification-daemon,
          python,
          python-apt (>= 0.6.12),
-         notification-daemon
-Recommends: synaptic, software-properties-gtk, anacron
-Replaces: update-notifier-common (<= 0.99.3debian11), update-notifier (<= 0.99.3debian11)
-Breaks: update-notifier-common (<= 0.99.3debian11), update-notifier (<= 0.99.3debian11)
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: anacron,
+            software-properties-gtk,
+            synaptic
+Replaces: update-notifier (<= 0.99.3debian11),
+          update-notifier-common (<= 0.99.3debian11)
+Breaks: update-notifier (<= 0.99.3debian11),
+        update-notifier-common (<= 0.99.3debian11)
 Description: Simple systray iconf which notifies about package updates
  Puts an icon in the user's notification area when package updates are
  available.

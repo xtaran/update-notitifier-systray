@@ -11,6 +11,7 @@ update-notifier-systray (1) unstable; urgency=low
     + Remove all generated files from the repository and source package.
   * Rename configure.in to configure.ac.
   * Remove data/update-notifier.{desktop,schemas} in clean target.
+  * Apply wrap-and-sort.
 
  -- Axel Beckert <abe@debian.org>  Sat, 15 Nov 2014 17:16:48 +0100
 
@@ -2139,4 +2140,3 @@ upgrade-notifier (0.33-1) unstable; urgency=low
   * Initial Release.
 
  -- Michiel Sikkes <michiel@eyesopened.nl>  Fri, 22 Oct 2004 22:55:25 +0200
-
