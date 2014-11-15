@@ -386,7 +386,7 @@ void on_button_run_clicked(GtkWidget *self, gpointer *data)
    }
 
    if(term != NULL && !g_ascii_strncasecmp(term, "true",-1)) {
-      cmdline = g_strdup_printf("gnome-terminal -e %s",cmd);
+      cmdline = g_strdup_printf("x-terminal-emulator -e %s",cmd);
    } else 
       cmdline = g_strdup(cmd);
 

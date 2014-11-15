@@ -5,6 +5,7 @@ update-notifier-systray (1) unstable; urgency=low
     dependencies.
     + Merge update-notifier and pdate-notifier-common.
     + Rip out anything which refers to gconf, dbus and gudev.
+    + Call x-terminal-emulator instead of hard-coded (!) gnome-terminal.
   * Change section from gnome to x11
   * Use debhelper 9 and dh-autoreconf
 
