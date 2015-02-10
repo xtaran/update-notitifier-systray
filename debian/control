@@ -27,6 +27,10 @@ Replaces: update-notifier (<= 0.99.3debian11),
           update-notifier-common (<= 0.99.3debian11)
 Breaks: update-notifier (<= 0.99.3debian11),
         update-notifier-common (<= 0.99.3debian11)
-Description: Simple systray icon which notifies about package updates
+Description: Simple, lean systray icon which notifies about package updates
  Puts an icon in the user's notification area when package updates are
  available.
+ .
+ It has neither dependencies on PolicyKit nor on PackageKit and is
+ hence especially suited for users who prefer lean desktops instead of
+ the well-known bloated ones.
