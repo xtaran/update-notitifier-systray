@@ -2,4 +2,4 @@
 
 SUBDIRS = data src pixmaps ui po 
 
-EXTRA_DIST = debian README
+EXTRA_DIST = debian README.md
