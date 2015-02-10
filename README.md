@@ -35,3 +35,11 @@ Based on ideas of Matt Zimmerman und Jeff Waught. Tray example from
 Lukas Lipka <lukas@pmad.net>. Lot's of cleanups from Michiel Sikkes.
 
 It was maintained by Michael Vogt and later by Julian Andres Klode.
+
+License
+-------
+
+I assume this is at least distributable under the terms of the GNU
+General Public License, version 2. See
+[Debian bug report #777595](https://bugs.debian.org/777595) for the
+issue and discussion around the license clarification.
