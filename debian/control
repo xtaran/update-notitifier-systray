@@ -12,7 +12,8 @@ Standards-Version: 3.9.2
 
 Package: update-notifier-systray
 Architecture: any
-Depends: gettext-base,
+Depends: apt-config-auto-update,
+         gettext-base,
          lsb-release,
          notification-daemon,
          python,

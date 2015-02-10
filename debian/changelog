@@ -11,6 +11,7 @@ update-notifier-systray (1) unstable; urgency=low
     + Remove all generated files from the repository and source package.
   * Rename configure.in to configure.ac.
   * Remove data/update-notifier.{desktop,schemas} in clean target.
+  * Use apt-config-auto-update instead of our own, conflicting files.
   * Apply wrap-and-sort.
 
  -- Axel Beckert <abe@debian.org>  Sat, 15 Nov 2014 17:16:48 +0100
