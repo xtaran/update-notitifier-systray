@@ -26,6 +26,6 @@ Replaces: update-notifier (<= 0.99.3debian11),
           update-notifier-common (<= 0.99.3debian11)
 Breaks: update-notifier (<= 0.99.3debian11),
         update-notifier-common (<= 0.99.3debian11)
-Description: Simple systray iconf which notifies about package updates
+Description: Simple systray icon which notifies about package updates
  Puts an icon in the user's notification area when package updates are
  available.
