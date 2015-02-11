@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9~),
                libgtk2.0-dev (>= 2.10.0),
                libnotify-dev (>= 0.7),
                libx11-dev
-Standards-Version: 3.9.2
+Standards-Version: 3.9.6
 Vcs-Git: git://github.com/xtaran/update-notitifier-systray.git
 Vcs-Browser: https://github.com/xtaran/update-notitifier-systray
 

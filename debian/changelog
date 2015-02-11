@@ -20,6 +20,7 @@ update-notifier-systray (1) UNRELEASED; urgency=low
   * Use apt-config-auto-update instead of our own, conflicting files.
   * Rename ancient ChangeLog to ChangeLog.old
   * Switch to source format "3.0 (native)"
+  * Declare complicance with Debian Policy version 3.9.6 (no changes needed)
   * Apply wrap-and-sort.
 
  -- Axel Beckert <abe@debian.org>  Sat, 15 Nov 2014 17:16:48 +0100
