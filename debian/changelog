@@ -1,4 +1,4 @@
-update-notifier-systray (1) unstable; urgency=low
+update-notifier-systray (1) UNRELEASED; urgency=low
 
   * Fork the last non-transitional, non-packagekit update-notifier package
     to again get a lean update-notifier for the systray with only very few
