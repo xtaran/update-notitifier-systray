@@ -13,7 +13,8 @@ update-notifier-systray (1) unstable; urgency=low
   * Rename configure.in to configure.ac.
   * Remove data/update-notifier.{desktop,schemas} in clean target.
   * Use apt-config-auto-update instead of our own, conflicting files.
-  * Modernize autotools stuff.
+  * configure.ac: Modernize autotools stuff and update version numbers.
+  * Rename ancient ChangeLog to ChangeLog.old
   * Apply wrap-and-sort.
 
  -- Axel Beckert <abe@debian.org>  Sat, 15 Nov 2014 17:16:48 +0100

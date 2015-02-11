@@ -2,7 +2,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_INIT([update-notifier], [0.41.5])
 AC_CONFIG_SRCDIR([src/update-notifier.c])
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([foreign])
 AM_CONFIG_HEADER(config.h)
 AM_MAINTAINER_MODE
 
