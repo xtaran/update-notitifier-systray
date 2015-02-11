@@ -2,14 +2,15 @@ Upgrade Notifier Tray Icon for Debian
 =====================================
 
 This is a small tray icon that backgrounds itself and checks for
-upgrades of Debian packages. It needs a regular "apt-get update" to be
-working. This is ensured by depending on apt-config-auto-update which
-installs some options into /etc/apt/apt.conf.d to trigger a cron
-update script. It monitors /var/lib/update-notifier/dpkg-run-stamp and
-updates its status if it changes.
+upgrades of Debian packages. It needs a regular `apt-get update` to be
+working. This is ensured by depending on
+[apt-config-auto-update](https://packages.debian.org/apt-config-auto-update)
+which installs some options into `/etc/apt/apt.conf.d/` to trigger a cron
+update script. It monitors `/var/lib/update-notifier/dpkg-run-stamp`
+and updates its status if it changes.
 
 It's a fork of the last non-transitional, non-packagekit
-update-notifier package to again get a lean update-notifier for the
+`update-notifier` package to again get a lean update-notifier for the
 systray with only very few dependencies.
 
 Dependencies
