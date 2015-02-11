@@ -10,6 +10,8 @@ Build-Depends: debhelper (>= 9~),
                libnotify-dev (>= 0.7),
                libx11-dev
 Standards-Version: 3.9.2
+Vcs-Git: git://github.com/xtaran/update-notitifier-systray.git
+Vcs-Browser: https://github.com/xtaran/update-notitifier-systray
 
 Package: update-notifier-systray
 Architecture: any

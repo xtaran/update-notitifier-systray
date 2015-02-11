@@ -7,6 +7,7 @@ update-notifier-systray (1) UNRELEASED; urgency=low
     + Rip out anything which refers to gconf, dbus and gudev.
     + Call x-terminal-emulator instead of hard-coded (!) gnome-terminal.
     + Update package description so that the differences are obvious.
+    + Update Vcs-* headers.
   * Change section from gnome to x11
   * Use debhelper 9 and dh-autoreconf
     + Remove all generated files from the repository and source package.
