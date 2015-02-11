@@ -10,10 +10,13 @@ update-notifier-systray (1) UNRELEASED; urgency=low
   * Change section from gnome to x11
   * Use debhelper 9 and dh-autoreconf
     + Remove all generated files from the repository and source package.
-  * Rename configure.in to configure.ac.
+  * configure.ac:
+    + Renamed from configure.in.
+    + Modernize autotools stuff and use proper m4 quoting.
+    + Use version from debian/changelog.
+      - Add b-d on dpkg-dev ≥ 1.17 for "dpkg-parsechangelog -S" usage
   * Remove data/update-notifier.{desktop,schemas} in clean target.
   * Use apt-config-auto-update instead of our own, conflicting files.
-  * configure.ac: Modernize autotools stuff and update version numbers.
   * Rename ancient ChangeLog to ChangeLog.old
   * Apply wrap-and-sort.
 

@@ -1,6 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_INIT([update-notifier], [0.41.5])
+define([DEBIAN_VERSION], esyscmd([dpkg-parsechangelog -S version | xargs printf]))
+AC_INIT([update-notifier-systray], DEBIAN_VERSION)
 AC_CONFIG_SRCDIR([src/update-notifier.c])
 AM_INIT_AUTOMAKE([foreign])
 AM_CONFIG_HEADER(config.h)
